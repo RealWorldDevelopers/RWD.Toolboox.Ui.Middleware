@@ -1,9 +1,0 @@
-C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\bin\Release\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.deps.json
-C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\bin\Release\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.dll
-C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\bin\Release\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.pdb
-C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\bin\Release\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.xml
-C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\obj\Release\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.AssemblyInfoInputs.cache
-C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\obj\Release\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.AssemblyInfo.cs
-C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\obj\Release\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.dll
-C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\obj\Release\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.pdb
-C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\obj\Release\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.csprojAssemblyReference.cache
