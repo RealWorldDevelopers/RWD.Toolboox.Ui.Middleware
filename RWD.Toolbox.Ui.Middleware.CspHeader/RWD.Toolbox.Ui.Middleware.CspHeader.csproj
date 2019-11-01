@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A Free .NET Core Library to assist with writing a HTML Content Security Policy Header.</Description>
+    <Copyright>RealWorldDevelopers 2019</Copyright>
+    <PackageProjectUrl>http://www.realworlddevelopers.com</PackageProjectUrl>
+    <PackageIconUrl>https://www.realworlddevelopers.com/resources/images/rwdevs-nuget.jpg</PackageIconUrl>
+    <RepositoryUrl>https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>CSP Content Security Policy Middleware RealWorldDevelopers .NET Core</PackageTags>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PackageLicenseFile>eula.md</PackageLicenseFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\RWD.Toolbox.Ui.Middleware.CspHeader.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\RWD.Toolbox.Ui.Middleware.CspHeader.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="E:\gator4123\home\ka8kgj\public_html\legal\eula.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

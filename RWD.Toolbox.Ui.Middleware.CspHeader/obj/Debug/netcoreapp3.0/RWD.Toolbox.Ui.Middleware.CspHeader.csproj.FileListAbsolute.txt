@@ -1,0 +1,13 @@
+C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.Csp\bin\Debug\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.deps.json
+C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.Csp\bin\Debug\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.dll
+C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.Csp\obj\Debug\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.AssemblyInfoInputs.cache
+C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.Csp\obj\Debug\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.AssemblyInfo.cs
+C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\bin\Debug\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.deps.json
+C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\bin\Debug\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.dll
+C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\bin\Debug\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.pdb
+C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\bin\Debug\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.xml
+C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\obj\Debug\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.csprojAssemblyReference.cache
+C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\obj\Debug\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.AssemblyInfoInputs.cache
+C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\obj\Debug\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.AssemblyInfo.cs
+C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\obj\Debug\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.dll
+C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\obj\Debug\netcoreapp3.0\RWD.Toolbox.Ui.Middleware.CspHeader.pdb

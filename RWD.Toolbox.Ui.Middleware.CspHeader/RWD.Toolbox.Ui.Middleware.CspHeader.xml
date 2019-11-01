@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RWD.Toolbox.Ui.Middleware.CspHeader</name>
+    </assembly>
+    <members>
+        <member name="T:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Default_Src">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Script_Src">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Style_Src">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Img_Src">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Font_Src">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Media_Src">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Object_Src">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Connect_Src">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Ancestors">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.ReportUri">
+            <inheritdoc/>
+        </member>
+        <member name="T:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder">
+            <summary>
+            CSP Directives Builder
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Default_Src">
+            <summary>
+            Builder for Default Src
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Scripts_Src">
+            <summary>
+            Builder for Scripts Src
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Styles_Src">
+            <summary>
+            Builder for Styles Src
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Imgs_Src">
+            <summary>
+            Builder for Images Src
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Fonts_Src">
+            <summary>
+            Builder for Fonts Src
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Medias_Src">
+            <summary>
+            Builder for Media Src
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Object_Src">
+            <summary>
+            Builder for Objects Src
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Connect_Src">
+            <summary>
+            Builder for Connections Src
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Ancestors">
+            <summary>
+            Builder for Frames Src
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.ReportUri">
+            <summary>
+            Builder for Report Uri Src
+            </summary>
+        </member>
+        <member name="T:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware">
+            <summary>
+            An ASP.NET middleware for adding CSP header.
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives)">
+            <summary>
+            Instantiates a new <see cref="T:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware"/>.
+            </summary>
+            <param name="next">The next middleware in the pipeline.</param>
+            <param name="directives">An instance of <see cref="T:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives"/>.</param>        
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invoke the middleware
+            </summary>
+            <param name="context">The current context</param>
+            <returns></returns>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.GetHeaderValue">
+            <summary>
+            Supportive Function to build Header Value
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.GetDirective(System.String,System.Collections.Generic.IList{System.String})">
+            <summary>
+            Supportive Function to compile a directive for Header Value
+            </summary>
+            <param name="directive">Directive Name as <see cref="T:System.String"/></param>
+            <param name="sources">List of acceptable sources as <see cref="T:System.Collections.Generic.IList`1"/></param>
+            <returns>Compiled directive as a <see cref="T:System.String"/></returns>
+        </member>
+        <member name="T:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions">
+            <summary>
+            The <see cref="T:Microsoft.AspNetCore.Builder.IApplicationBuilder"/> extensions for adding CSP middleware support.
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder})">
+            <summary>
+            Adds middleware to your web application pipeline to automatically add CSP headers to requests
+            </summary>
+            <param name="app">The IApplicationBuilder passed to your Configure method</param>
+            <param name="builder">A configured policy builder to build a policy.</param>
+            <returns>The original app parameter</returns>
+        </member>
+        <member name="T:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder">
+            <summary>
+            Build the source list for a directive.
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowSelf">
+            <summary>
+            Add 'self' as a source to the directive
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNone">
+            <summary>
+            Add 'none' as a source to the directive
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowAny">
+            <summary>
+            Add * as a source to the directive
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowData">
+            <summary>
+            Add data: as a source to the directive
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeInline">
+            <summary>
+            Add 'unsafe-inline' as a source to the directive
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeEval">
+            <summary>
+            Add 'unsafe-eval' as a source to the directive
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNonce(System.String)">
+            <summary>
+            Add 'nonce-key' as a source to the directive
+            </summary>
+            <param name="key">key value for the nonce source</param>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.Allow(System.String)">
+            <summary>
+            Ad-hoc source value to the directive
+            </summary>
+            <param name="source">Source Value</param>
+        </member>
+        <member name="T:RWD.Toolbox.Ui.Middleware.CspHeader.Directive">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Header">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Sources">
+            <inheritdoc/>
+        </member>
+        <member name="T:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives">
+            <summary>
+            Directive Portions of CSP
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Default_Src">
+            <summary>
+            Default Src Directive
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Script_Src">
+            <summary>
+            Script Src Directive
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Style_Src">
+            <summary>
+            Style Src Directive
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Img_Src">
+            <summary>
+            Image Src Directive
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Font_Src">
+            <summary>
+            Font Src Directive
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Media_Src">
+            <summary>
+            Media Src Directive
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Object_Src">
+            <summary>
+            Object Src Directive
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Connect_Src">
+            <summary>
+            Connection Src Directive
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Frame_Ancestors">
+            <summary>
+            Frames Src Directive
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.ReportUri">
+            <summary>
+            Reporting Uri Src Directive
+            </summary>
+        </member>
+        <member name="T:RWD.Toolbox.Ui.Middleware.CspHeader.IDirective">
+            <summary>
+            CSP Directive
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.Header">
+            <summary>
+            CSP Directive Header Value
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.Sources">
+            <summary>
+            CSP Directive Source Value
+            </summary>
+        </member>
+    </members>
+</doc>
