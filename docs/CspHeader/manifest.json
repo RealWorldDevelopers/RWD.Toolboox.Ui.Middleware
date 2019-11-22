@@ -1,0 +1,233 @@
+{
+  "homepages": [],
+  "source_base_path": "E:/Source/RWD.Toolboox.Ui.Middleware/RWD.Toolbox.Ui.Middleware.CspHeader/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html",
+          "hash": "5nUqkYFAsAiKybnqgTi7YA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html",
+          "hash": "V/VNoE1XwwJqrdvpJw7pFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.html",
+          "hash": "EpWjaKOvuDvssYvWh3YhFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.html",
+          "hash": "ZPbpSRFkQJr1lJOPhB0DCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.html",
+          "hash": "CjDw3+U5I2jDIFkdu5hxdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.Directive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.Directive.html",
+          "hash": "Je4bN4JskN5lRKTu2zZ4Xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html",
+          "hash": "C3fp5Xz2whEYcWVA8ecoqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.html",
+          "hash": "S8Xe11Vy9j9V9FPjW2fryw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.html",
+          "hash": "iQ2DFldjRCEhSMbi3RRFiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "wqjNrLliNwx1VwQSuTMikg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "FFQCQulsuBoLhKQRLLqbWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/RWDevs-header.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/RWDevs-header.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "2Yevoz57M8LNLKm9OQRBVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "6/ZVLLCud8FfLRNLEWNDFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
