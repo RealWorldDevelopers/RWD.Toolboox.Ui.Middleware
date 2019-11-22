@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Description>A Free .NET Core Library to assist with writing a HTML Content Security Policy Header.</Description>
     <Copyright>RealWorldDevelopers 2019</Copyright>
     <PackageProjectUrl>http://www.realworlddevelopers.com</PackageProjectUrl>
@@ -15,11 +15,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\RWD.Toolbox.Ui.Middleware.CspHeader.xml</DocumentationFile>
+    <DocumentationFile>E:\Source\RWD.Toolboox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\RWD.Toolbox.Ui.Middleware.CspHeader.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\RWD.Toolbox.Ui.Middleware.CspHeader.xml</DocumentationFile>
+    <DocumentationFile>E:\Source\RWD.Toolboox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.CspHeader\RWD.Toolbox.Ui.Middleware.CspHeader.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RWD.Toolbox.Ui.Middleware.CspHeader", "RWD.Toolbox.Ui.Middleware.CspHeader\RWD.Toolbox.Ui.Middleware.CspHeader.csproj", "{D94737EB-FE07-4EF9-81B2-B102B93FC164}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RWD.Toolboox.Ui.Middleware.SecurityHeaders", "RWD.Toolboox.Ui.Middleware.SecurityHeaders\RWD.Toolboox.Ui.Middleware.SecurityHeaders.csproj", "{197D2AB1-A7AD-4B35-B0CC-060F0F19458D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RWD.Toolboox.Ui.Middleware.SecurityHeaders", "RWD.Toolboox.Ui.Middleware.SecurityHeaders\RWD.Toolboox.Ui.Middleware.SecurityHeaders.csproj", "{197D2AB1-A7AD-4B35-B0CC-060F0F19458D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

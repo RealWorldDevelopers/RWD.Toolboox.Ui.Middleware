@@ -11,15 +11,15 @@
     <RepositoryType>GIT</RepositoryType>
     <PackageTags>Security Headers Middleware RealWorldDevelopers .NET Core</PackageTags>
     <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolboox.Ui.Middleware.SecurityHeaders\RWD.Toolboox.Ui.Middleware.SecurityHeaders.xml</DocumentationFile>
+    <DocumentationFile>E:\Source\RWD.Toolboox.Ui.Middleware\RWD.Toolboox.Ui.Middleware.SecurityHeaders\RWD.Toolboox.Ui.Middleware.SecurityHeaders.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>C:\Users\ka8kgj\Desktop\RWD.Toolbox.Ui.Middleware\RWD.Toolboox.Ui.Middleware.SecurityHeaders\RWD.Toolboox.Ui.Middleware.SecurityHeaders.xml</DocumentationFile>
+    <DocumentationFile>E:\Source\RWD.Toolboox.Ui.Middleware\RWD.Toolboox.Ui.Middleware.SecurityHeaders\RWD.Toolboox.Ui.Middleware.SecurityHeaders.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
