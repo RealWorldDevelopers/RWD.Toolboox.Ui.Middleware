@@ -1,0 +1,264 @@
+{
+  "homepages": [],
+  "source_base_path": "E:/Source/RWD.Toolboox.Ui.Middleware/RWD.Toolboox.Ui.Middleware.SecurityHeaders/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.html",
+          "hash": "WT42tNjZDLuwRIyKZFLGGA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.html",
+          "hash": "aPpwyxo4uuOIYwvIBp9ZyA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html",
+          "hash": "DUUssH1xg2/XIq2x6IxUHg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.html",
+          "hash": "Ufar1qbUyOVeyuwIrEhuOg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.html",
+          "hash": "ButDwxgHh2/IsEP4dhgDMQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.html",
+          "hash": "g0UlI/FXgp/HW+rbe3j1YQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.html",
+          "hash": "63Y7YQxXndFq3eE1kMUKAQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html",
+          "hash": "XU3/hZtcv+or+oTxRUgPAA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.html",
+          "hash": "ANBP3E5vJ/3XcpnivvG4bg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.html",
+          "hash": "x9QK6G8gVKKU3UfLHIokpQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.html",
+          "hash": "DPL9PCySqkc3zqaVot/fkg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.html",
+          "hash": "IKLNrs1IV3MOKWmwPZ4JVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "KdFnQ//SVyEq4hGtlHrJsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "uuHK+yvyeTbdpuTTpcxutQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/RWDevs-header.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/RWDevs-header.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "EKns8Pz9Ac0SKTkdy9x/RA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "87OEp4BHxnLHYdHbq+Pkig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 2
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 12,
+          "skipped_file_count": 12
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
