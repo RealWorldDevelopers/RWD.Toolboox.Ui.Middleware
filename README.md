@@ -1,20 +1,23 @@
-RWD.Toolboox.Ui.Middleware
+RWD.Toolbox.Ui.Middleware
 ============================
 
   
 RWD.Toolbox.Ui.Middleware.SecurityHeaders
 ----------------------------------------
 + A .NET Core Library to assist with writing a HTML Security Headers. 
-+ ### [Documentation](https://realworlddevelopers.github.io/RWD.Toolboox.Ui.Middleware/SecurityHeaders/index.html) 
-+ ### [Nuget Package](https://www.nuget.org/packages/RWD.Toolboox.Ui.Middleware.SecurityHeaders/)
++ ### [Documentation](https://realworlddevelopers.github.io/RWD.Toolbox.Ui.Middleware/SecurityHeaders/index.html) 
++ ### [Nuget Package](https://www.nuget.org/packages/RWD.Toolbox.Ui.Middleware.SecurityHeaders/)
      
 RWD.Toolbox.Ui.Middleware.CspHeader
 ----------------------------------------
 + A .NET Core Library to assist with writing a HTML Content Security Header.
-+ ### [Documentation](https://realworlddevelopers.github.io/RWD.Toolboox.Ui.Middleware/CspHeader/index.html)
-+ ### [Nuget Package](https://www.nuget.org/packages/RWD.Toolboox.Ui.Middleware.CspHeader/)
++ ### [Documentation](https://realworlddevelopers.github.io/RWD.Toolbox.Ui.Middleware/CspHeader/index.html)
++ ### [Nuget Package](https://www.nuget.org/packages/RWD.Toolbox.Ui.Middleware.CspHeader/)
 
 ### Quick Start Notes
+* #### v1.0.0.1  
+	* Namespace Spelling
+	* .Net Core 3.1
 * #### v1.0.0.0  
 	* Initial Release
 	* .Net Core
