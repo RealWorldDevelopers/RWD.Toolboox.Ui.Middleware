@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.Directive
+  commentId: T:RWD.Toolbox.Ui.Middleware.CspHeader.Directive
+  id: Directive
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader
+  children:
+  - RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Header
+  - RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Sources
+  langs:
+  - csharp
+  - vb
+  name: Directive
+  nameWithType: Directive
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.Directive
+  type: Class
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/Directive.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Directive
+    path: ../Directive.cs
+    startLine: 6
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nCSP Directive\n"
+  example: []
+  syntax:
+    content: 'public class Directive : object, IDirective'
+    content.vb: >-
+      Public Class Directive
+          Inherits Object
+          Implements IDirective
+  inheritance:
+  - System.Object
+  implements:
+  - RWD.Toolbox.Ui.Middleware.CspHeader.IDirective
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Header
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Header
+  id: Header
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.Directive
+  langs:
+  - csharp
+  - vb
+  name: Header
+  nameWithType: Directive.Header
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Header
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/Directive.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Header
+    path: ../Directive.cs
+    startLine: 9
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nCSP Directive Header Value\n"
+  example: []
+  syntax:
+    content: public string Header { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Header As String
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Header*
+  implements:
+  - RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.Header
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Sources
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Sources
+  id: Sources
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.Directive
+  langs:
+  - csharp
+  - vb
+  name: Sources
+  nameWithType: Directive.Sources
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Sources
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/Directive.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Sources
+    path: ../Directive.cs
+    startLine: 12
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nCSP Directive Source Value\n"
+  example: []
+  syntax:
+    content: public IList<string> Sources { get; set; }
+    parameters: []
+    return:
+      type: IList{System.String}
+    content.vb: Public Property Sources As IList(Of String)
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Sources*
+  implements:
+  - RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.Sources
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader
+  commentId: N:RWD.Toolbox.Ui.Middleware.CspHeader
+  name: RWD.Toolbox.Ui.Middleware.CspHeader
+  nameWithType: RWD.Toolbox.Ui.Middleware.CspHeader
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective
+  commentId: T:RWD.Toolbox.Ui.Middleware.CspHeader.IDirective
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader
+  name: IDirective
+  nameWithType: IDirective
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Header*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Header
+  name: Header
+  nameWithType: Directive.Header
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Header
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.Header
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.Header
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective
+  name: Header
+  nameWithType: IDirective.Header
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.Header
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Sources*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Sources
+  name: Sources
+  nameWithType: Directive.Sources
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.Directive.Sources
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.Sources
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.Sources
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective
+  name: Sources
+  nameWithType: IDirective.Sources
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.Sources
+- uid: IList{System.String}
+  commentId: '!:IList{System.String}'
+  definition: IList`1
+  name: IList<String>
+  nameWithType: IList<String>
+  fullName: IList<System.String>
+  nameWithType.vb: IList(Of String)
+  fullName.vb: IList(Of System.String)
+  name.vb: IList(Of String)
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

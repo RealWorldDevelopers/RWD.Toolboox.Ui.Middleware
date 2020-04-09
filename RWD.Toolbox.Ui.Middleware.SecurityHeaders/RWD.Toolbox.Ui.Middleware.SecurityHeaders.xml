@@ -1,0 +1,361 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RWD.Toolbox.Ui.Middleware.SecurityHeaders</name>
+    </assembly>
+    <members>
+        <member name="T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants">
+            <summary>
+            X-Content-Type-Options-related constants.
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.Header">
+            <summary>
+            Header value for X-Content-Type-Options
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.NoSniff">
+            <summary>
+            Disables content sniffing
+            </summary>
+        </member>
+        <member name="T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants">
+            <summary>
+            X-Frame-Options related constants.
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.Header">
+            <summary>
+            The header value for X-Frame-Options
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.Deny">
+            <summary>
+            The page cannot be displayed in a frame, regardless of the site attempting to do so.
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.SameOrigin">
+            <summary>
+            The page can only be displayed in a frame on the same origin as the page itself.
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.AllowFromUri">
+            <summary>
+            The page can only be displayed in a frame on the specified origin. {0} specifies the format string
+            </summary>
+        </member>
+        <member name="T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants">
+            <summary>
+            Referrer-Policy related constants.
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Header">
+            <summary>
+            The header value for Content-Security-Policy
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer">
+            <summary>
+            The Referrer header will be omitted entirely. No referrer information is sent along with requests.
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer_When_Downgrade">
+            <summary>
+            This is the user agent's default behavior if no policy is specified. The URL is sent as a referrer when the protocol security level stays the same (HTTP→HTTP, HTTPS→HTTPS), but isn't sent to a less secure destination (HTTPS→HTTP).
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin">
+            <summary>
+            Only send the origin of the document as the referrer in all cases. The document https://example.com/page.html will send the referrer https://example.com/.
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin_When_Cross_Origin">
+            <summary>
+            Send a full URL when performing a same-origin request, but only send the origin of the document for other cases.
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Same_Origin">
+            <summary>
+            A referrer will be sent for same-site origins, but cross-origin requests will contain no referrer information.
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin">
+            <summary>
+            Only send the origin of the document as the referrer when the protocol security level stays the same (HTTPS→HTTPS), but don't send it to a less secure destination (HTTPS→HTTP).
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin_When_Cross_Origin">
+            <summary>
+            Send a full URL when performing a same-origin request, only send the origin when the protocol security level stays the same (HTTPS→HTTPS), and send no header to a less secure destination (HTTPS→HTTP).
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Unsafe_Url">
+            <summary>
+            Send a full URL when performing a same-origin or cross-origin request. This policy will leak origins and paths from TLS-protected resources to insecure origins. Carefully consider the impact of this setting.
+            </summary>
+        </member>
+        <member name="T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants">
+            <summary>
+            Server header related constants.
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.Header">
+            <summary>
+            The header value for X-Powered-By
+            </summary>
+        </member>
+        <member name="T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants">
+            <summary>
+            Strict-Transport-Security-related constants.
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.OneYearInSeconds">
+            <summary>
+            The number of seconds in one year
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.Header">
+            <summary>
+            Header value for Strict-Transport-Security
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAge">
+            <summary>
+            Tells the user-agent to cache the domain in the STS list for the provided number of seconds {0} 
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAgeIncludeSubdomains">
+            <summary>
+            Tells the user-agent to cache the domain in the STS list for the provided number of seconds {0} and include any sub-domains.
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.NoCache">
+            <summary>
+            Tells the user-agent to remove, or not cache the host in the STS cache.
+            </summary>
+        </member>
+        <member name="T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants">
+            <summary>
+            X-XSS-Protection-related constants.
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Header">
+            <summary>
+            Header value for X-XSS-Protection
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Enabled">
+            <summary>
+            Enables the XSS Protections
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Disabled">
+            <summary>
+            Disables the XSS Protections offered by the user-agent.
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Block">
+            <summary>
+            Enables XSS protections and instructs the user-agent to block the response in the event that script has been inserted from user input, instead of sanitizing.
+            </summary>
+        </member>
+        <member name="F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Report">
+            <summary>
+            A partially supported directive that tells the user-agent to report potential XSS attacks to a single URL. Data will be POST'd to the report URL in JSON format. 
+            {0} specifies the report URL, including protocol
+            </summary>
+        </member>
+        <member name="T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder">
+            <summary>
+            Exposes methods to build a policy.
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddDefaultSecurePolicy">
+            <summary>
+            Add default headers in accordance with the most secure approach
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsDeny">
+            <summary>
+            Add X-Frame-Options DENY to all requests.
+            The page cannot be displayed in a frame, regardless of the site attempting to do so
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin">
+            <summary>
+            Add X-Frame-Options SAMEORIGIN to all requests.
+            The page can only be displayed in a frame on the same origin as the page itself.
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin(System.String)">
+            <summary>
+            Add X-Frame-Options ALLOW-FROM {URI} to all requests, where the URI is provided
+            The page can only be displayed in a frame on the specified origin.
+            </summary>
+            <param name="uri">The URI of the origin in which the page may be displayed in a frame</param>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrer">
+            <summary>
+            Add Referrer-Policy No_Referrer to all requests.
+            The Referrer header will be omitted entirely. No referrer information is sent along with requests.
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrerWhenDowngrade">
+            <summary>
+            Add Referrer-Policy No_Referrer_When_Downgrade to all requests.
+            This is the user agent's default behavior if no policy is specified. 
+            The URL is sent as a referrer when the protocol security level stays the same (HTTP→HTTP, HTTPS→HTTPS), 
+            but isn't sent to a less secure destination (HTTPS→HTTP).
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOrigin">
+            <summary>
+            Add Referrer-Policy Origin to all requests.
+            Only send the origin of the document as the referrer in all cases. 
+            The document https://example.com/page.html will send the referrer https://example.com/.
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOriginWhenCrossOrigin">
+            <summary>
+            Add Referrer-Policy Origin_When_Cross_Origin to all requests.
+            Send a full URL when performing a same-origin request, but only send the origin of the document for other cases.
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicySameOrigin">
+            <summary>
+            Add Referrer-Policy Same_Origin to all requests.
+            A referrer will be sent for same-site origins, but cross-origin requests will contain no referrer information.
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOrigin">
+            <summary>
+            Add Referrer-Policy Strict_Origin to all requests.
+            Only send the origin of the document as the referrer when the protocol security level stays the same (HTTPS→HTTPS), 
+            but don't send it to a less secure destination (HTTPS→HTTP).
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOriginWhenCrossOrigin">
+            <summary>
+            Add Referrer-Policy Strict_Origin_When_Cross_Origin to all requests.
+            Send a full URL when performing a same-origin request, only send the origin when the protocol security level stays the same (HTTPS→HTTPS), 
+            and send no header to a less secure destination (HTTPS→HTTP).
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyUnsafeUrl">
+            <summary>
+            Add Referrer-Policy Unsafe_Url to all requests.
+            Send a full URL when performing a same-origin or cross-origin request. 
+            This policy will leak origins and paths from TLS-protected resources to insecure origins. 
+            Carefully consider the impact of this setting.
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionEnabled">
+            <summary>
+            Add X-XSS-Protection 1 to all requests.
+            Enables the XSS Protections
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionDisabled">
+            <summary>
+            Add X-XSS-Protection 0 to all requests.
+            Disables the XSS Protections offered by the user-agent.
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionBlock">
+            <summary>
+            Add X-XSS-Protection 1; mode=block to all requests.
+            Enables XSS protections and instructs the user-agent to block the response in the event that script has been inserted from user input, instead of sanitizing.
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionReport(System.String)">
+            <summary>
+            Add X-XSS-Protection 1; report=http://site.com/report to all requests.
+            A partially supported directive that tells the user-agent to report potential XSS attacks to a single URL. Data will be POST'd to the report URL in JSON format.
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddContentTypeOptionsNoSniff">
+            <summary>
+            Add X-Content-Type-Options nosniff to all requests.
+            Can be set to protect against MIME type confusion attacks.
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddStrictTransportSecurity">
+            <summary>
+            Add the Strict Transport Security Header
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveServerHeader">
+            <summary>
+            Removes the Server header from all responses
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddCustomHeader(System.String,System.String)">
+            <summary>
+            Add a Custom Header to all request
+            </summary>
+            <param name="header">Header Name</param>
+            <param name="value">Header Value</param>
+            <returns></returns>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveHeader(System.String)">
+            <summary>
+            Remove a Custom Header from all request
+            </summary>
+            <param name="header">Header Name</param>
+            <returns></returns>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.Build">
+            <summary>
+            Builds a new <see cref="T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy"/> using the entries added.
+            </summary>
+            <returns>The constructed <see cref="T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy"/>.</returns>
+        </member>
+        <member name="T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware">
+            <summary>
+            An ASP.NET middleware for adding security headers.
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy)">
+            <summary>
+            Instantiates a new <see cref="T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware"/>.
+            </summary>
+            <param name="next">The next middleware in the pipeline.</param>
+            <param name="policy">An instance of the <see cref="T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy"/> which can be applied.</param>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invoke the middleware
+            </summary>
+            <param name="context">The current context</param>
+            <returns></returns>
+        </member>
+        <member name="T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions">
+            <summary>
+            The <see cref="T:Microsoft.AspNetCore.Builder.IApplicationBuilder"/> extensions for adding Security headers middleware support.
+            </summary>
+        </member>
+        <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder)">
+            <summary>
+            Adds middleware to your web application pipeline to automatically add security headers to requests
+            </summary>
+            <param name="app">The IApplicationBuilder passed to your Configure method.</param>
+            <param name="builder">A configured policy builder to build a policy.</param>
+            <returns>The original app parameter</returns>
+        </member>
+        <member name="T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy">
+            <summary>
+            Defines the policy for customizing security headers for a request.
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders">
+            <summary>
+            Add Header
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders">
+            <summary>
+            Remove Header
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,175 @@
+### YamlMime:ManagedReference
+items:
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware
+  commentId: T:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware
+  id: CspMiddleware
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader
+  children:
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives)
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+  langs:
+  - csharp
+  - vb
+  name: CspMiddleware
+  nameWithType: CspMiddleware
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware
+  type: Class
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspMiddleware.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: CspMiddleware
+    path: ../CspMiddleware.cs
+    startLine: 10
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nAn ASP.NET middleware for adding CSP header.\n"
+  example: []
+  syntax:
+    content: 'public sealed class CspMiddleware : object'
+    content.vb: >-
+      Public NotInheritable Class CspMiddleware
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives)
+  commentId: M:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives)
+  id: '#ctor(Microsoft.AspNetCore.Http.RequestDelegate,RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives)'
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware
+  langs:
+  - csharp
+  - vb
+  name: CspMiddleware(RequestDelegate, ICspDirectives)
+  nameWithType: CspMiddleware.CspMiddleware(RequestDelegate, ICspDirectives)
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.CspMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives)
+  type: Constructor
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspMiddleware.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: .ctor
+    path: ../CspMiddleware.cs
+    startLine: 22
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nInstantiates a new <xref href=\"RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public CspMiddleware(RequestDelegate next, ICspDirectives directives)
+    parameters:
+    - id: next
+      type: Microsoft.AspNetCore.Http.RequestDelegate
+      description: The next middleware in the pipeline.
+    - id: directives
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
+      description: An instance of <xref href="RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Sub New(next As RequestDelegate, directives As ICspDirectives)
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+  commentId: M:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+  id: Invoke(Microsoft.AspNetCore.Http.HttpContext)
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware
+  langs:
+  - csharp
+  - vb
+  name: Invoke(HttpContext)
+  nameWithType: CspMiddleware.Invoke(HttpContext)
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+  type: Method
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspMiddleware.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Invoke
+    path: ../CspMiddleware.cs
+    startLine: 33
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nInvoke the middleware\n"
+  example: []
+  syntax:
+    content: public Task Invoke(HttpContext context)
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Http.HttpContext
+      description: The current context
+    return:
+      type: Task
+      description: ''
+    content.vb: Public Function Invoke(context As HttpContext) As Task
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.Invoke*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader
+  commentId: N:RWD.Toolbox.Ui.Middleware.CspHeader
+  name: RWD.Toolbox.Ui.Middleware.CspHeader
+  nameWithType: RWD.Toolbox.Ui.Middleware.CspHeader
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware
+  commentId: T:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware
+  name: CspMiddleware
+  nameWithType: CspMiddleware
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
+  commentId: T:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader
+  name: ICspDirectives
+  nameWithType: ICspDirectives
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.#ctor*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.#ctor
+  name: CspMiddleware
+  nameWithType: CspMiddleware.CspMiddleware
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.CspMiddleware
+- uid: Microsoft.AspNetCore.Http.RequestDelegate
+  commentId: T:Microsoft.AspNetCore.Http.RequestDelegate
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: RequestDelegate
+  nameWithType: RequestDelegate
+  fullName: Microsoft.AspNetCore.Http.RequestDelegate
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: true
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.Invoke*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.Invoke
+  name: Invoke
+  nameWithType: CspMiddleware.Invoke
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.Invoke
+- uid: Microsoft.AspNetCore.Http.HttpContext
+  commentId: T:Microsoft.AspNetCore.Http.HttpContext
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: HttpContext
+  nameWithType: HttpContext
+  fullName: Microsoft.AspNetCore.Http.HttpContext
+- uid: Task
+  commentId: '!:Task'
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task

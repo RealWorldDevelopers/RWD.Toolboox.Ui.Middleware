@@ -1,0 +1,387 @@
+### YamlMime:ManagedReference
+items:
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+  commentId: T:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+  id: CspSourceBuilder
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader
+  children:
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.Allow(System.String)
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowAny
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowData
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNonce(System.String)
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNone
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowSelf
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeEval
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeInline
+  langs:
+  - csharp
+  - vb
+  name: CspSourceBuilder
+  nameWithType: CspSourceBuilder
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+  type: Class
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: CspSourceBuilder
+    path: ../CspSourceBuilder.cs
+    startLine: 9
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nBuild the source list for a directive.\n"
+  example: []
+  syntax:
+    content: 'public sealed class CspSourceBuilder : object'
+    content.vb: >-
+      Public NotInheritable Class CspSourceBuilder
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowSelf
+  commentId: M:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowSelf
+  id: AllowSelf
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+  langs:
+  - csharp
+  - vb
+  name: AllowSelf()
+  nameWithType: CspSourceBuilder.AllowSelf()
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowSelf()
+  type: Method
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: AllowSelf
+    path: ../CspSourceBuilder.cs
+    startLine: 18
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nAdd &apos;self&apos; as a source to the directive\n"
+  example: []
+  syntax:
+    content: public CspSourceBuilder AllowSelf()
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+    content.vb: Public Function AllowSelf As CspSourceBuilder
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowSelf*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNone
+  commentId: M:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNone
+  id: AllowNone
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+  langs:
+  - csharp
+  - vb
+  name: AllowNone()
+  nameWithType: CspSourceBuilder.AllowNone()
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNone()
+  type: Method
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: AllowNone
+    path: ../CspSourceBuilder.cs
+    startLine: 23
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nAdd &apos;none&apos; as a source to the directive\n"
+  example: []
+  syntax:
+    content: public CspSourceBuilder AllowNone()
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+    content.vb: Public Function AllowNone As CspSourceBuilder
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowAny
+  commentId: M:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowAny
+  id: AllowAny
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+  langs:
+  - csharp
+  - vb
+  name: AllowAny()
+  nameWithType: CspSourceBuilder.AllowAny()
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowAny()
+  type: Method
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: AllowAny
+    path: ../CspSourceBuilder.cs
+    startLine: 28
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nAdd * as a source to the directive\n"
+  example: []
+  syntax:
+    content: public CspSourceBuilder AllowAny()
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+    content.vb: Public Function AllowAny As CspSourceBuilder
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowAny*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowData
+  commentId: M:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowData
+  id: AllowData
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+  langs:
+  - csharp
+  - vb
+  name: AllowData()
+  nameWithType: CspSourceBuilder.AllowData()
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowData()
+  type: Method
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: AllowData
+    path: ../CspSourceBuilder.cs
+    startLine: 33
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nAdd data: as a source to the directive\n"
+  example: []
+  syntax:
+    content: public CspSourceBuilder AllowData()
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+    content.vb: Public Function AllowData As CspSourceBuilder
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeInline
+  commentId: M:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeInline
+  id: AllowUnsafeInline
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+  langs:
+  - csharp
+  - vb
+  name: AllowUnsafeInline()
+  nameWithType: CspSourceBuilder.AllowUnsafeInline()
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeInline()
+  type: Method
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: AllowUnsafeInline
+    path: ../CspSourceBuilder.cs
+    startLine: 38
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nAdd &apos;unsafe-inline&apos; as a source to the directive\n"
+  example: []
+  syntax:
+    content: public CspSourceBuilder AllowUnsafeInline()
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+    content.vb: Public Function AllowUnsafeInline As CspSourceBuilder
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeInline*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeEval
+  commentId: M:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeEval
+  id: AllowUnsafeEval
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+  langs:
+  - csharp
+  - vb
+  name: AllowUnsafeEval()
+  nameWithType: CspSourceBuilder.AllowUnsafeEval()
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeEval()
+  type: Method
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: AllowUnsafeEval
+    path: ../CspSourceBuilder.cs
+    startLine: 43
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nAdd &apos;unsafe-eval&apos; as a source to the directive\n"
+  example: []
+  syntax:
+    content: public CspSourceBuilder AllowUnsafeEval()
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+    content.vb: Public Function AllowUnsafeEval As CspSourceBuilder
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeEval*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNonce(System.String)
+  commentId: M:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNonce(System.String)
+  id: AllowNonce(System.String)
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+  langs:
+  - csharp
+  - vb
+  name: AllowNonce(String)
+  nameWithType: CspSourceBuilder.AllowNonce(String)
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNonce(System.String)
+  type: Method
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: AllowNonce
+    path: ../CspSourceBuilder.cs
+    startLine: 49
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nAdd &apos;nonce-key&apos; as a source to the directive\n"
+  example: []
+  syntax:
+    content: public CspSourceBuilder AllowNonce(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: key value for the nonce source
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+    content.vb: Public Function AllowNonce(key As String) As CspSourceBuilder
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNonce*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.Allow(System.String)
+  commentId: M:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.Allow(System.String)
+  id: Allow(System.String)
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+  langs:
+  - csharp
+  - vb
+  name: Allow(String)
+  nameWithType: CspSourceBuilder.Allow(String)
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.Allow(System.String)
+  type: Method
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Allow
+    path: ../CspSourceBuilder.cs
+    startLine: 55
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nAd-hoc source value to the directive\n"
+  example: []
+  syntax:
+    content: public CspSourceBuilder Allow(string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: Source Value
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+    content.vb: Public Function Allow(source As String) As CspSourceBuilder
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.Allow*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader
+  commentId: N:RWD.Toolbox.Ui.Middleware.CspHeader
+  name: RWD.Toolbox.Ui.Middleware.CspHeader
+  nameWithType: RWD.Toolbox.Ui.Middleware.CspHeader
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowSelf*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowSelf
+  name: AllowSelf
+  nameWithType: CspSourceBuilder.AllowSelf
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowSelf
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+  commentId: T:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader
+  name: CspSourceBuilder
+  nameWithType: CspSourceBuilder
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNone*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNone
+  name: AllowNone
+  nameWithType: CspSourceBuilder.AllowNone
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNone
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowAny*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowAny
+  name: AllowAny
+  nameWithType: CspSourceBuilder.AllowAny
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowAny
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowData*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowData
+  name: AllowData
+  nameWithType: CspSourceBuilder.AllowData
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowData
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeInline*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeInline
+  name: AllowUnsafeInline
+  nameWithType: CspSourceBuilder.AllowUnsafeInline
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeInline
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeEval*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeEval
+  name: AllowUnsafeEval
+  nameWithType: CspSourceBuilder.AllowUnsafeEval
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowUnsafeEval
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNonce*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNonce
+  name: AllowNonce
+  nameWithType: CspSourceBuilder.AllowNonce
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.AllowNonce
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.Allow*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.Allow
+  name: Allow
+  nameWithType: CspSourceBuilder.Allow
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.Allow

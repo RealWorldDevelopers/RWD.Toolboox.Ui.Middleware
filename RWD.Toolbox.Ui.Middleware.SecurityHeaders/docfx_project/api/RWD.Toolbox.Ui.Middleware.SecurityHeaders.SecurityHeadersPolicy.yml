@@ -1,0 +1,324 @@
+### YamlMime:ManagedReference
+items:
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy
+  id: SecurityHeadersPolicy
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  children:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
+  langs:
+  - csharp
+  - vb
+  name: SecurityHeadersPolicy
+  nameWithType: SecurityHeadersPolicy
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy
+  type: Class
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersPolicy.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: SecurityHeadersPolicy
+    path: ../SecurityHeadersPolicy.cs
+    startLine: 8
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  summary: "\nDefines the policy for customizing security headers for a request.\n"
+  example: []
+  syntax:
+    content: 'public class SecurityHeadersPolicy : object'
+    content.vb: >-
+      Public Class SecurityHeadersPolicy
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
+  commentId: P:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
+  id: SetHeaders
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy
+  langs:
+  - csharp
+  - vb
+  name: SetHeaders
+  nameWithType: SecurityHeadersPolicy.SetHeaders
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersPolicy.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: SetHeaders
+    path: ../SecurityHeadersPolicy.cs
+    startLine: 13
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  summary: "\nAdd Header\n"
+  example: []
+  syntax:
+    content: public IDictionary<string, string> SetHeaders { get; }
+    parameters: []
+    return:
+      type: IDictionary{System.String,System.String}
+    content.vb: Public ReadOnly Property SetHeaders As IDictionary(Of String, String)
+  overload: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
+  commentId: P:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
+  id: RemoveHeaders
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy
+  langs:
+  - csharp
+  - vb
+  name: RemoveHeaders
+  nameWithType: SecurityHeadersPolicy.RemoveHeaders
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersPolicy.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: RemoveHeaders
+    path: ../SecurityHeadersPolicy.cs
+    startLine: 18
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  summary: "\nRemove Header\n"
+  example: []
+  syntax:
+    content: public ISet<string> RemoveHeaders { get; }
+    parameters: []
+    return:
+      type: ISet{System.String}
+    content.vb: Public ReadOnly Property RemoveHeaders As ISet(Of String)
+  overload: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  commentId: N:RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  name: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  nameWithType: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
+  name: SetHeaders
+  nameWithType: SecurityHeadersPolicy.SetHeaders
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
+- uid: IDictionary{System.String,System.String}
+  commentId: '!:IDictionary{System.String,System.String}'
+  definition: IDictionary`2
+  name: IDictionary<String, String>
+  nameWithType: IDictionary<String, String>
+  fullName: IDictionary<System.String, System.String>
+  nameWithType.vb: IDictionary(Of String, String)
+  fullName.vb: IDictionary(Of System.String, System.String)
+  name.vb: IDictionary(Of String, String)
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IDictionary`2
+  commentId: '!:IDictionary`2'
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
+  name: RemoveHeaders
+  nameWithType: SecurityHeadersPolicy.RemoveHeaders
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
+- uid: ISet{System.String}
+  commentId: '!:ISet{System.String}'
+  definition: ISet`1
+  name: ISet<String>
+  nameWithType: ISet<String>
+  fullName: ISet<System.String>
+  nameWithType.vb: ISet(Of String)
+  fullName.vb: ISet(Of System.String)
+  name.vb: ISet(Of String)
+  spec.csharp:
+  - uid: ISet`1
+    name: ISet
+    nameWithType: ISet
+    fullName: ISet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISet`1
+    name: ISet
+    nameWithType: ISet
+    fullName: ISet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ISet`1
+  commentId: '!:ISet`1'
+  isExternal: true
+  name: ISet<>
+  nameWithType: ISet<>
+  fullName: ISet<>
+  nameWithType.vb: ISet(Of )
+  fullName.vb: ISet(Of )
+  name.vb: ISet(Of )
+  spec.csharp:
+  - uid: ISet`1
+    name: ISet
+    nameWithType: ISet
+    fullName: ISet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISet`1
+    name: ISet
+    nameWithType: ISet
+    fullName: ISet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

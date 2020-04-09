@@ -1,0 +1,242 @@
+### YamlMime:ManagedReference
+items:
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants
+  id: XssProtectionConstants
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  children:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Block
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Disabled
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Enabled
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Header
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Report
+  langs:
+  - csharp
+  - vb
+  name: XssProtectionConstants
+  nameWithType: XssProtectionConstants
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants
+  type: Class
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/XssProtectionConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: XssProtectionConstants
+    path: ../Constants/XssProtectionConstants.cs
+    startLine: 6
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nX-XSS-Protection-related constants.\n"
+  example: []
+  syntax:
+    content: 'public static class XssProtectionConstants : object'
+    content.vb: >-
+      Public Module XssProtectionConstants
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Header
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Header
+  id: Header
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants
+  langs:
+  - csharp
+  - vb
+  name: Header
+  nameWithType: XssProtectionConstants.Header
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Header
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/XssProtectionConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Header
+    path: ../Constants/XssProtectionConstants.cs
+    startLine: 11
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nHeader value for X-XSS-Protection\n"
+  example: []
+  syntax:
+    content: public static readonly string Header
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Header As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Enabled
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Enabled
+  id: Enabled
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: XssProtectionConstants.Enabled
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Enabled
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/XssProtectionConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Enabled
+    path: ../Constants/XssProtectionConstants.cs
+    startLine: 16
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nEnables the XSS Protections\n"
+  example: []
+  syntax:
+    content: public static readonly string Enabled
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Enabled As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Disabled
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Disabled
+  id: Disabled
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants
+  langs:
+  - csharp
+  - vb
+  name: Disabled
+  nameWithType: XssProtectionConstants.Disabled
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Disabled
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/XssProtectionConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Disabled
+    path: ../Constants/XssProtectionConstants.cs
+    startLine: 21
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nDisables the XSS Protections offered by the user-agent.\n"
+  example: []
+  syntax:
+    content: public static readonly string Disabled
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Disabled As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Block
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Block
+  id: Block
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants
+  langs:
+  - csharp
+  - vb
+  name: Block
+  nameWithType: XssProtectionConstants.Block
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Block
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/XssProtectionConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Block
+    path: ../Constants/XssProtectionConstants.cs
+    startLine: 26
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nEnables XSS protections and instructs the user-agent to block the response in the event that script has been inserted from user input, instead of sanitizing.\n"
+  example: []
+  syntax:
+    content: public static readonly string Block
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Block As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Report
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Report
+  id: Report
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants
+  langs:
+  - csharp
+  - vb
+  name: Report
+  nameWithType: XssProtectionConstants.Report
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Report
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/XssProtectionConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Report
+    path: ../Constants/XssProtectionConstants.cs
+    startLine: 32
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nA partially supported directive that tells the user-agent to report potential XSS attacks to a single URL. Data will be POST&apos;d to the report URL in JSON format. \n{0} specifies the report URL, including protocol\n"
+  example: []
+  syntax:
+    content: public static readonly string Report
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Report As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  commentId: N:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  name: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  nameWithType: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

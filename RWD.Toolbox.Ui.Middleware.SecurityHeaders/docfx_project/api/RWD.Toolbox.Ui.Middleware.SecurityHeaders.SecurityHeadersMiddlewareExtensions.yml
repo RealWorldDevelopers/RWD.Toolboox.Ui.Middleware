@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions
+  id: SecurityHeadersMiddlewareExtensions
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  children:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder)
+  langs:
+  - csharp
+  - vb
+  name: SecurityHeadersMiddlewareExtensions
+  nameWithType: SecurityHeadersMiddlewareExtensions
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions
+  type: Class
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersMiddlewareExtensions.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: SecurityHeadersMiddlewareExtensions
+    path: ../SecurityHeadersMiddlewareExtensions.cs
+    startLine: 8
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  summary: "\nThe <xref href=\"Microsoft.AspNetCore.Builder.IApplicationBuilder\" data-throw-if-not-resolved=\"false\"></xref> extensions for adding Security headers middleware support.\n"
+  example: []
+  syntax:
+    content: 'public static class SecurityHeadersMiddlewareExtensions : object'
+    content.vb: >-
+      Public Module SecurityHeadersMiddlewareExtensions
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder)
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder)
+  id: UseSecurityHeadersMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder)
+  isExtensionMethod: true
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions
+  langs:
+  - csharp
+  - vb
+  name: UseSecurityHeadersMiddleware(IApplicationBuilder, SecurityHeadersBuilder)
+  nameWithType: SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware(IApplicationBuilder, SecurityHeadersBuilder)
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder, RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder)
+  type: Method
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersMiddlewareExtensions.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: UseSecurityHeadersMiddleware
+    path: ../SecurityHeadersMiddlewareExtensions.cs
+    startLine: 16
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  summary: "\nAdds middleware to your web application pipeline to automatically add security headers to requests\n"
+  example: []
+  syntax:
+    content: public static IApplicationBuilder UseSecurityHeadersMiddleware(this IApplicationBuilder app, SecurityHeadersBuilder builder)
+    parameters:
+    - id: app
+      type: Microsoft.AspNetCore.Builder.IApplicationBuilder
+      description: The IApplicationBuilder passed to your Configure method.
+    - id: builder
+      type: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder
+      description: A configured policy builder to build a policy.
+    return:
+      type: Microsoft.AspNetCore.Builder.IApplicationBuilder
+      description: The original app parameter
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UseSecurityHeadersMiddleware(app As IApplicationBuilder, builder As SecurityHeadersBuilder) As IApplicationBuilder
+  overload: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Microsoft.AspNetCore.Builder.IApplicationBuilder
+  commentId: T:Microsoft.AspNetCore.Builder.IApplicationBuilder
+  parent: Microsoft.AspNetCore.Builder
+  isExternal: true
+  name: IApplicationBuilder
+  nameWithType: IApplicationBuilder
+  fullName: Microsoft.AspNetCore.Builder.IApplicationBuilder
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  commentId: N:RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  name: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  nameWithType: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+- uid: Microsoft.AspNetCore.Builder
+  commentId: N:Microsoft.AspNetCore.Builder
+  isExternal: true
+  name: Microsoft.AspNetCore.Builder
+  nameWithType: Microsoft.AspNetCore.Builder
+  fullName: Microsoft.AspNetCore.Builder
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware
+  name: UseSecurityHeadersMiddleware
+  nameWithType: SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  name: SecurityHeadersBuilder
+  nameWithType: SecurityHeadersBuilder
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder

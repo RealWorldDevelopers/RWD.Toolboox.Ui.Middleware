@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RWD.Toolbox.Ui.Middleware.CspHeader", "RWD.Toolbox.Ui.Middleware.CspHeader\RWD.Toolbox.Ui.Middleware.CspHeader.csproj", "{D94737EB-FE07-4EF9-81B2-B102B93FC164}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RWD.Toolboox.Ui.Middleware.SecurityHeaders", "RWD.Toolboox.Ui.Middleware.SecurityHeaders\RWD.Toolboox.Ui.Middleware.SecurityHeaders.csproj", "{197D2AB1-A7AD-4B35-B0CC-060F0F19458D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RWD.Toolbox.Ui.Middleware.SecurityHeaders", "RWD.Toolbox.Ui.Middleware.SecurityHeaders\RWD.Toolbox.Ui.Middleware.SecurityHeaders.csproj", "{A053D741-662F-4798-9207-475E32ED7508}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{D94737EB-FE07-4EF9-81B2-B102B93FC164}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D94737EB-FE07-4EF9-81B2-B102B93FC164}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D94737EB-FE07-4EF9-81B2-B102B93FC164}.Release|Any CPU.Build.0 = Release|Any CPU
-		{197D2AB1-A7AD-4B35-B0CC-060F0F19458D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{197D2AB1-A7AD-4B35-B0CC-060F0F19458D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{197D2AB1-A7AD-4B35-B0CC-060F0F19458D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{197D2AB1-A7AD-4B35-B0CC-060F0F19458D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A053D741-662F-4798-9207-475E32ED7508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A053D741-662F-4798-9207-475E32ED7508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A053D741-662F-4798-9207-475E32ED7508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A053D741-662F-4798-9207-475E32ED7508}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

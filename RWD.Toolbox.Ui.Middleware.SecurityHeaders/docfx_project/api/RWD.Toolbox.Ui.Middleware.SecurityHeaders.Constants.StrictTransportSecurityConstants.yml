@@ -1,0 +1,246 @@
+### YamlMime:ManagedReference
+items:
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants
+  id: StrictTransportSecurityConstants
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  children:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.Header
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAge
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAgeIncludeSubdomains
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.NoCache
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.OneYearInSeconds
+  langs:
+  - csharp
+  - vb
+  name: StrictTransportSecurityConstants
+  nameWithType: StrictTransportSecurityConstants
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants
+  type: Class
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/StrictTransportSecurityConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: StrictTransportSecurityConstants
+    path: ../Constants/StrictTransportSecurityConstants.cs
+    startLine: 6
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nStrict-Transport-Security-related constants.\n"
+  example: []
+  syntax:
+    content: 'public static class StrictTransportSecurityConstants : object'
+    content.vb: >-
+      Public Module StrictTransportSecurityConstants
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.OneYearInSeconds
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.OneYearInSeconds
+  id: OneYearInSeconds
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants
+  langs:
+  - csharp
+  - vb
+  name: OneYearInSeconds
+  nameWithType: StrictTransportSecurityConstants.OneYearInSeconds
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.OneYearInSeconds
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/StrictTransportSecurityConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: OneYearInSeconds
+    path: ../Constants/StrictTransportSecurityConstants.cs
+    startLine: 11
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nThe number of seconds in one year\n"
+  example: []
+  syntax:
+    content: public const int OneYearInSeconds = null
+    return:
+      type: System.Int32
+    content.vb: Public Const OneYearInSeconds As Integer = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.Header
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.Header
+  id: Header
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants
+  langs:
+  - csharp
+  - vb
+  name: Header
+  nameWithType: StrictTransportSecurityConstants.Header
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.Header
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/StrictTransportSecurityConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Header
+    path: ../Constants/StrictTransportSecurityConstants.cs
+    startLine: 16
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nHeader value for Strict-Transport-Security\n"
+  example: []
+  syntax:
+    content: public static readonly string Header
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Header As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAge
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAge
+  id: MaxAge
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants
+  langs:
+  - csharp
+  - vb
+  name: MaxAge
+  nameWithType: StrictTransportSecurityConstants.MaxAge
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAge
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/StrictTransportSecurityConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: MaxAge
+    path: ../Constants/StrictTransportSecurityConstants.cs
+    startLine: 21
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nTells the user-agent to cache the domain in the STS list for the provided number of seconds {0} \n"
+  example: []
+  syntax:
+    content: public static readonly string MaxAge
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly MaxAge As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAgeIncludeSubdomains
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAgeIncludeSubdomains
+  id: MaxAgeIncludeSubdomains
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants
+  langs:
+  - csharp
+  - vb
+  name: MaxAgeIncludeSubdomains
+  nameWithType: StrictTransportSecurityConstants.MaxAgeIncludeSubdomains
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAgeIncludeSubdomains
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/StrictTransportSecurityConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: MaxAgeIncludeSubdomains
+    path: ../Constants/StrictTransportSecurityConstants.cs
+    startLine: 26
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nTells the user-agent to cache the domain in the STS list for the provided number of seconds {0} and include any sub-domains.\n"
+  example: []
+  syntax:
+    content: public static readonly string MaxAgeIncludeSubdomains
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly MaxAgeIncludeSubdomains As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.NoCache
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.NoCache
+  id: NoCache
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants
+  langs:
+  - csharp
+  - vb
+  name: NoCache
+  nameWithType: StrictTransportSecurityConstants.NoCache
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.NoCache
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/StrictTransportSecurityConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: NoCache
+    path: ../Constants/StrictTransportSecurityConstants.cs
+    startLine: 31
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nTells the user-agent to remove, or not cache the host in the STS cache.\n"
+  example: []
+  syntax:
+    content: public static readonly string NoCache
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly NoCache As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  commentId: N:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  name: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  nameWithType: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+- uid: System.Int32
+  commentId: '!:System.Int32'
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

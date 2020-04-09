@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware
+  id: SecurityHeadersMiddleware
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  children:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy)
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+  langs:
+  - csharp
+  - vb
+  name: SecurityHeadersMiddleware
+  nameWithType: SecurityHeadersMiddleware
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware
+  type: Class
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersMiddleware.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: SecurityHeadersMiddleware
+    path: ../SecurityHeadersMiddleware.cs
+    startLine: 9
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  summary: "\nAn ASP.NET middleware for adding security headers.\n"
+  example: []
+  syntax:
+    content: 'public class SecurityHeadersMiddleware : object'
+    content.vb: >-
+      Public Class SecurityHeadersMiddleware
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy)
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy)
+  id: '#ctor(Microsoft.AspNetCore.Http.RequestDelegate,RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy)'
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware
+  langs:
+  - csharp
+  - vb
+  name: SecurityHeadersMiddleware(RequestDelegate, SecurityHeadersPolicy)
+  nameWithType: SecurityHeadersMiddleware.SecurityHeadersMiddleware(RequestDelegate, SecurityHeadersPolicy)
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.SecurityHeadersMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy)
+  type: Constructor
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersMiddleware.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: .ctor
+    path: ../SecurityHeadersMiddleware.cs
+    startLine: 19
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  summary: "\nInstantiates a new <xref href=\"RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public SecurityHeadersMiddleware(RequestDelegate next, SecurityHeadersPolicy policy)
+    parameters:
+    - id: next
+      type: Microsoft.AspNetCore.Http.RequestDelegate
+      description: The next middleware in the pipeline.
+    - id: policy
+      type: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy
+      description: An instance of the <xref href="RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy" data-throw-if-not-resolved="false"></xref> which can be applied.
+    content.vb: Public Sub New(next As RequestDelegate, policy As SecurityHeadersPolicy)
+  overload: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+  id: Invoke(Microsoft.AspNetCore.Http.HttpContext)
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware
+  langs:
+  - csharp
+  - vb
+  name: Invoke(HttpContext)
+  nameWithType: SecurityHeadersMiddleware.Invoke(HttpContext)
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+  type: Method
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersMiddleware.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Invoke
+    path: ../SecurityHeadersMiddleware.cs
+    startLine: 30
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  summary: "\nInvoke the middleware\n"
+  example: []
+  syntax:
+    content: public Task Invoke(HttpContext context)
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Http.HttpContext
+      description: The current context
+    return:
+      type: Task
+      description: ''
+    content.vb: Public Function Invoke(context As HttpContext) As Task
+  overload: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  commentId: N:RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  name: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  nameWithType: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware
+  name: SecurityHeadersMiddleware
+  nameWithType: SecurityHeadersMiddleware
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  name: SecurityHeadersPolicy
+  nameWithType: SecurityHeadersPolicy
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.#ctor*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.#ctor
+  name: SecurityHeadersMiddleware
+  nameWithType: SecurityHeadersMiddleware.SecurityHeadersMiddleware
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.SecurityHeadersMiddleware
+- uid: Microsoft.AspNetCore.Http.RequestDelegate
+  commentId: T:Microsoft.AspNetCore.Http.RequestDelegate
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: RequestDelegate
+  nameWithType: RequestDelegate
+  fullName: Microsoft.AspNetCore.Http.RequestDelegate
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: true
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke
+  name: Invoke
+  nameWithType: SecurityHeadersMiddleware.Invoke
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke
+- uid: Microsoft.AspNetCore.Http.HttpContext
+  commentId: T:Microsoft.AspNetCore.Http.HttpContext
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: HttpContext
+  nameWithType: HttpContext
+  fullName: Microsoft.AspNetCore.Http.HttpContext
+- uid: Task
+  commentId: '!:Task'
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task

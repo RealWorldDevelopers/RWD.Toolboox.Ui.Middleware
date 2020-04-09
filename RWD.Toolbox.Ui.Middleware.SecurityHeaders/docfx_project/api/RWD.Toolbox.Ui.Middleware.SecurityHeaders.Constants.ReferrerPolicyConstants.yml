@@ -1,0 +1,394 @@
+### YamlMime:ManagedReference
+items:
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
+  id: ReferrerPolicyConstants
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  children:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Header
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer_When_Downgrade
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin_When_Cross_Origin
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Same_Origin
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin_When_Cross_Origin
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Unsafe_Url
+  langs:
+  - csharp
+  - vb
+  name: ReferrerPolicyConstants
+  nameWithType: ReferrerPolicyConstants
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
+  type: Class
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: ReferrerPolicyConstants
+    path: ../Constants/ReferrerPolicyConstants.cs
+    startLine: 6
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nReferrer-Policy related constants.\n"
+  example: []
+  syntax:
+    content: 'public static class ReferrerPolicyConstants : object'
+    content.vb: >-
+      Public Module ReferrerPolicyConstants
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Header
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Header
+  id: Header
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
+  langs:
+  - csharp
+  - vb
+  name: Header
+  nameWithType: ReferrerPolicyConstants.Header
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Header
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Header
+    path: ../Constants/ReferrerPolicyConstants.cs
+    startLine: 11
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nThe header value for Content-Security-Policy\n"
+  example: []
+  syntax:
+    content: public static readonly string Header
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Header As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer
+  id: No_Referrer
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
+  langs:
+  - csharp
+  - vb
+  name: No_Referrer
+  nameWithType: ReferrerPolicyConstants.No_Referrer
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: No_Referrer
+    path: ../Constants/ReferrerPolicyConstants.cs
+    startLine: 16
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nThe Referrer header will be omitted entirely. No referrer information is sent along with requests.\n"
+  example: []
+  syntax:
+    content: public static readonly string No_Referrer
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly No_Referrer As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer_When_Downgrade
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer_When_Downgrade
+  id: No_Referrer_When_Downgrade
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
+  langs:
+  - csharp
+  - vb
+  name: No_Referrer_When_Downgrade
+  nameWithType: ReferrerPolicyConstants.No_Referrer_When_Downgrade
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer_When_Downgrade
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: No_Referrer_When_Downgrade
+    path: ../Constants/ReferrerPolicyConstants.cs
+    startLine: 21
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nThis is the user agent&apos;s default behavior if no policy is specified. The URL is sent as a referrer when the protocol security level stays the same (HTTP→HTTP, HTTPS→HTTPS), but isn&apos;t sent to a less secure destination (HTTPS→HTTP).\n"
+  example: []
+  syntax:
+    content: public static readonly string No_Referrer_When_Downgrade
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly No_Referrer_When_Downgrade As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin
+  id: Origin
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
+  langs:
+  - csharp
+  - vb
+  name: Origin
+  nameWithType: ReferrerPolicyConstants.Origin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Origin
+    path: ../Constants/ReferrerPolicyConstants.cs
+    startLine: 26
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nOnly send the origin of the document as the referrer in all cases. The document https://example.com/page.html will send the referrer https://example.com/.\n"
+  example: []
+  syntax:
+    content: public static readonly string Origin
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Origin As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin_When_Cross_Origin
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin_When_Cross_Origin
+  id: Origin_When_Cross_Origin
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
+  langs:
+  - csharp
+  - vb
+  name: Origin_When_Cross_Origin
+  nameWithType: ReferrerPolicyConstants.Origin_When_Cross_Origin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin_When_Cross_Origin
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Origin_When_Cross_Origin
+    path: ../Constants/ReferrerPolicyConstants.cs
+    startLine: 31
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nSend a full URL when performing a same-origin request, but only send the origin of the document for other cases.\n"
+  example: []
+  syntax:
+    content: public static readonly string Origin_When_Cross_Origin
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Origin_When_Cross_Origin As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Same_Origin
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Same_Origin
+  id: Same_Origin
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
+  langs:
+  - csharp
+  - vb
+  name: Same_Origin
+  nameWithType: ReferrerPolicyConstants.Same_Origin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Same_Origin
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Same_Origin
+    path: ../Constants/ReferrerPolicyConstants.cs
+    startLine: 36
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nA referrer will be sent for same-site origins, but cross-origin requests will contain no referrer information.\n"
+  example: []
+  syntax:
+    content: public static readonly string Same_Origin
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Same_Origin As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin
+  id: Strict_Origin
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
+  langs:
+  - csharp
+  - vb
+  name: Strict_Origin
+  nameWithType: ReferrerPolicyConstants.Strict_Origin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Strict_Origin
+    path: ../Constants/ReferrerPolicyConstants.cs
+    startLine: 41
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nOnly send the origin of the document as the referrer when the protocol security level stays the same (HTTPS→HTTPS), but don&apos;t send it to a less secure destination (HTTPS→HTTP).\n"
+  example: []
+  syntax:
+    content: public static readonly string Strict_Origin
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Strict_Origin As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin_When_Cross_Origin
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin_When_Cross_Origin
+  id: Strict_Origin_When_Cross_Origin
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
+  langs:
+  - csharp
+  - vb
+  name: Strict_Origin_When_Cross_Origin
+  nameWithType: ReferrerPolicyConstants.Strict_Origin_When_Cross_Origin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin_When_Cross_Origin
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Strict_Origin_When_Cross_Origin
+    path: ../Constants/ReferrerPolicyConstants.cs
+    startLine: 46
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nSend a full URL when performing a same-origin request, only send the origin when the protocol security level stays the same (HTTPS→HTTPS), and send no header to a less secure destination (HTTPS→HTTP).\n"
+  example: []
+  syntax:
+    content: public static readonly string Strict_Origin_When_Cross_Origin
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Strict_Origin_When_Cross_Origin As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Unsafe_Url
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Unsafe_Url
+  id: Unsafe_Url
+  parent: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
+  langs:
+  - csharp
+  - vb
+  name: Unsafe_Url
+  nameWithType: ReferrerPolicyConstants.Unsafe_Url
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Unsafe_Url
+  type: Field
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: Unsafe_Url
+    path: ../Constants/ReferrerPolicyConstants.cs
+    startLine: 51
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  namespace: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  summary: "\nSend a full URL when performing a same-origin or cross-origin request. This policy will leak origins and paths from TLS-protected resources to insecure origins. Carefully consider the impact of this setting.\n"
+  example: []
+  syntax:
+    content: public static readonly string Unsafe_Url
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Unsafe_Url As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  commentId: N:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  name: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  nameWithType: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,197 @@
+### YamlMime:ManagedReference
+items:
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions
+  commentId: T:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions
+  id: CspMiddlewareExtensions
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader
+  children:
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,Action{RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder})
+  langs:
+  - csharp
+  - vb
+  name: CspMiddlewareExtensions
+  nameWithType: CspMiddlewareExtensions
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions
+  type: Class
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspMiddlewareExtensions.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: CspMiddlewareExtensions
+    path: ../CspMiddlewareExtensions.cs
+    startLine: 8
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nThe <xref href=\"Microsoft.AspNetCore.Builder.IApplicationBuilder\" data-throw-if-not-resolved=\"false\"></xref> extensions for adding CSP middleware support.\n"
+  example: []
+  syntax:
+    content: 'public static class CspMiddlewareExtensions : object'
+    content.vb: >-
+      Public Module CspMiddlewareExtensions
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,Action{RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder})
+  commentId: M:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,Action{RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder})
+  id: UseCspMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,Action{RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder})
+  isExtensionMethod: true
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions
+  langs:
+  - csharp
+  - vb
+  name: UseCspMiddleware(IApplicationBuilder, Action<CspDirectivesBuilder>)
+  nameWithType: CspMiddlewareExtensions.UseCspMiddleware(IApplicationBuilder, Action<CspDirectivesBuilder>)
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder, Action<RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder>)
+  type: Method
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspMiddlewareExtensions.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+    id: UseCspMiddleware
+    path: ../CspMiddlewareExtensions.cs
+    startLine: 16
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nAdds middleware to your web application pipeline to automatically add CSP headers to requests\n"
+  example: []
+  syntax:
+    content: public static IApplicationBuilder UseCspMiddleware(this IApplicationBuilder app, Action<CspDirectivesBuilder> builder)
+    parameters:
+    - id: app
+      type: Microsoft.AspNetCore.Builder.IApplicationBuilder
+      description: The IApplicationBuilder passed to your Configure method
+    - id: builder
+      type: Action{RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder}
+      description: A configured policy builder to build a policy.
+    return:
+      type: Microsoft.AspNetCore.Builder.IApplicationBuilder
+      description: The original app parameter
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UseCspMiddleware(app As IApplicationBuilder, builder As Action(Of CspDirectivesBuilder)) As IApplicationBuilder
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware*
+  nameWithType.vb: CspMiddlewareExtensions.UseCspMiddleware(IApplicationBuilder, Action(Of CspDirectivesBuilder))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder, Action(Of RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder))
+  name.vb: UseCspMiddleware(IApplicationBuilder, Action(Of CspDirectivesBuilder))
+references:
+- uid: Microsoft.AspNetCore.Builder.IApplicationBuilder
+  commentId: T:Microsoft.AspNetCore.Builder.IApplicationBuilder
+  parent: Microsoft.AspNetCore.Builder
+  isExternal: true
+  name: IApplicationBuilder
+  nameWithType: IApplicationBuilder
+  fullName: Microsoft.AspNetCore.Builder.IApplicationBuilder
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader
+  commentId: N:RWD.Toolbox.Ui.Middleware.CspHeader
+  name: RWD.Toolbox.Ui.Middleware.CspHeader
+  nameWithType: RWD.Toolbox.Ui.Middleware.CspHeader
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader
+- uid: Microsoft.AspNetCore.Builder
+  commentId: N:Microsoft.AspNetCore.Builder
+  isExternal: true
+  name: Microsoft.AspNetCore.Builder
+  nameWithType: Microsoft.AspNetCore.Builder
+  fullName: Microsoft.AspNetCore.Builder
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware
+  name: UseCspMiddleware
+  nameWithType: CspMiddlewareExtensions.UseCspMiddleware
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware
+- uid: Action{RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder}
+  commentId: '!:Action{RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder}'
+  definition: Action`1
+  name: Action<CspDirectivesBuilder>
+  nameWithType: Action<CspDirectivesBuilder>
+  fullName: Action<RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder>
+  nameWithType.vb: Action(Of CspDirectivesBuilder)
+  fullName.vb: Action(Of RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder)
+  name.vb: Action(Of CspDirectivesBuilder)
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder
+    name: CspDirectivesBuilder
+    nameWithType: CspDirectivesBuilder
+    fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder
+    name: CspDirectivesBuilder
+    nameWithType: CspDirectivesBuilder
+    fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Action`1
+  commentId: '!:Action`1'
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
