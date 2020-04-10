@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "E:/Source/RWD.Toolboox.Ui.Middleware/RWD.Toolbox.Ui.Middleware.CspHeader/docfx_project",
+  "source_base_path": "E:/Source/RWD.Toolbox.Ui.Middleware/RWD.Toolbox.Ui.Middleware.CspHeader/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html",
-          "hash": "5nUqkYFAsAiKybnqgTi7YA=="
+          "hash": "dUcsnBzWlgl9Q5/jAge3pg=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html",
-          "hash": "V/VNoE1XwwJqrdvpJw7pFg=="
+          "hash": "TmP3T61sCZFHUrevX1CJvw=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.html",
-          "hash": "EpWjaKOvuDvssYvWh3YhFw=="
+          "hash": "ki9xR9tUK9ZEy6yPtGPqow=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.html",
-          "hash": "ZPbpSRFkQJr1lJOPhB0DCg=="
+          "hash": "E+QKJZWUnZ36D634CAX1+Q=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.html",
-          "hash": "CjDw3+U5I2jDIFkdu5hxdw=="
+          "hash": "5j2d6nYfofwbPJ2WxZYm0g=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.Directive.html",
-          "hash": "Je4bN4JskN5lRKTu2zZ4Xg=="
+          "hash": "geadgQzMupxqQdS5nUiB/Q=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html",
-          "hash": "C3fp5Xz2whEYcWVA8ecoqw=="
+          "hash": "s4pPot3jgpRaqfA4JPV5GA=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.html",
-          "hash": "S8Xe11Vy9j9V9FPjW2fryw=="
+          "hash": "mR4OH+M7+0ECFtAES1avMg=="
         }
       },
       "is_incremental": false,
@@ -105,19 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.html",
-          "hash": "iQ2DFldjRCEhSMbi3RRFiA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "api/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "api/index.html",
-          "hash": "wqjNrLliNwx1VwQSuTMikg=="
+          "hash": "SnwNb2cIo+uPnmrep0wczQ=="
         }
       },
       "is_incremental": false,
@@ -152,22 +140,19 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "2Yevoz57M8LNLKm9OQRBVQ=="
+          "hash": "re+yG3eM+VSeMvXn7MwQ6Q=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "6/ZVLLCud8FfLRNLEWNDFg=="
+          "hash": "J4lfPahhPAVdZE7JS2r5Aw=="
         }
       },
       "is_incremental": false,
@@ -185,13 +170,6 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -199,10 +177,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2,
+          "total_file_count": 1,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
