@@ -4,7 +4,7 @@ namespace RWD.Toolbox.Ui.Middleware.SecurityHeaders
 {
     /// <summary>
     /// Exposes methods to build a policy.
-    /// </summary>
+    /// </summary> 
     public class SecurityHeadersBuilder
     {
         private readonly SecurityHeadersPolicy _policy = new SecurityHeadersPolicy();

@@ -168,7 +168,7 @@
         <member name="T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder">
             <summary>
             Exposes methods to build a policy.
-            </summary>
+            </summary> 
         </member>
         <member name="M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddDefaultSecurePolicy">
             <summary>
