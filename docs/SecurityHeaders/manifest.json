@@ -1,159 +1,147 @@
 {
   "homepages": [],
-  "source_base_path": "E:/Source/RWD.Toolboox.Ui.Middleware/RWD.Toolboox.Ui.Middleware.SecurityHeaders/docfx_project",
+  "source_base_path": "E:/Source/RWD.Toolbox.Ui.Middleware/RWD.Toolbox.Ui.Middleware.SecurityHeaders/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.yml",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.html",
-          "hash": "WT42tNjZDLuwRIyKZFLGGA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.html",
-          "hash": "aPpwyxo4uuOIYwvIBp9ZyA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html",
-          "hash": "DUUssH1xg2/XIq2x6IxUHg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.html",
-          "hash": "Ufar1qbUyOVeyuwIrEhuOg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.html",
-          "hash": "ButDwxgHh2/IsEP4dhgDMQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.html",
-          "hash": "g0UlI/FXgp/HW+rbe3j1YQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.html",
-          "hash": "63Y7YQxXndFq3eE1kMUKAQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html",
-          "hash": "XU3/hZtcv+or+oTxRUgPAA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.html",
-          "hash": "ANBP3E5vJ/3XcpnivvG4bg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.html",
-          "hash": "x9QK6G8gVKKU3UfLHIokpQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.html",
-          "hash": "DPL9PCySqkc3zqaVot/fkg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.html",
-          "hash": "IKLNrs1IV3MOKWmwPZ4JVQ=="
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.html",
+          "hash": "DSNnlG2GATaC/qK2WfQXCdnvtCxB+lSULGIb3MAbN9U="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "api/index.md",
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.yml",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "KdFnQ//SVyEq4hGtlHrJsw=="
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.html",
+          "hash": "XRmUnWTxF4wkQo42v7g88dAC/zlwpPHrKQud2AOsqNw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html",
+          "hash": "VIASbXp1qpJ1b60ywaOs3f/SbEG2wDN4pD//IkMQOR8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.html",
+          "hash": "BRoRWJfiDtWWv+zpJtAVrQZY2L04a3HO4OUETLoTG0I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.html",
+          "hash": "+4ieVDMe4+20VBpp24KsAofS6Qmc4iMt1U1jJxr6Ze4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.html",
+          "hash": "ah7kNxgwqHIRY8XjNuGdN/g4NLGbrCoeKc6x0YxpO3M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.html",
+          "hash": "8ie45egdKDBwhW12Yg7Q0BHFPUtdG/0If9q7FxRQbng="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html",
+          "hash": "5o7B+k0rrQU6uWggGqmvtlnnqt4X0XbCTZjd1ctdmSA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.html",
+          "hash": "MNPUUr1abO++sukDHWDWkEO6929VsZzKJ7F2TT9f92w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.html",
+          "hash": "dUewQPnYWzXrAuwIobGrjax+MPgggJmeEBFwSaxQif8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.html",
+          "hash": "EcNr8ioh978jjMWLaZHDYD0AD/erRk4A9MYGpUSAGp4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.html",
+          "hash": "Wb8AsnkZAwYnDpQ7UlB/j9wwJCSls6q90w4RpCeYYPQ="
         }
       },
       "is_incremental": false,
@@ -165,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "uuHK+yvyeTbdpuTTpcxutQ=="
+          "hash": "fgOSe9oyEDR5mM8q94zYGHrpDaMMhsxRI5JqkWuYNNI="
         }
       },
       "is_incremental": false,
@@ -188,7 +176,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "EKns8Pz9Ac0SKTkdy9x/RA=="
+          "hash": "wuXkjR6QB+garBZ3bHbn51hTZGwR3cPGFlD6fVSIxRY="
         }
       },
       "is_incremental": false,
@@ -200,7 +188,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "87OEp4BHxnLHYdHbq+Pkig=="
+          "hash": "PFDUe557v2p50BWA6wv6q35pEWraqTJ/nUSsX5xw4/Q="
         }
       },
       "is_incremental": false,
@@ -210,12 +198,26 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because docfx version changed from 2.47.0.0 to 2.59.3.0.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "DocfxVersionChanged"
       },
       "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 12,
+          "skipped_file_count": 0
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -229,18 +231,6 @@
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 2,
-          "skipped_file_count": 2
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 12,
-          "skipped_file_count": 12
         }
       }
     },

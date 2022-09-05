@@ -1,575 +1,575 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders
-  name: RWD.Toolboox.Ui.Middleware.SecurityHeaders
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.html
-  commentId: N:RWD.Toolboox.Ui.Middleware.SecurityHeaders
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders
-  nameWithType: RWD.Toolboox.Ui.Middleware.SecurityHeaders
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants
-  name: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.html
-  commentId: N:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants
-  nameWithType: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  name: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.html
+  commentId: N:RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+  nameWithType: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  name: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.html
+  commentId: N:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+  nameWithType: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants
   name: ContentTypeOptionsConstants
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.html
-  commentId: T:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.html
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants
   nameWithType: ContentTypeOptionsConstants
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.Header
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.Header
   name: Header
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_ContentTypeOptionsConstants_Header
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.Header
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.Header
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_ContentTypeOptionsConstants_Header
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.Header
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.Header
   nameWithType: ContentTypeOptionsConstants.Header
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.NoSniff
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.NoSniff
   name: NoSniff
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_ContentTypeOptionsConstants_NoSniff
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.NoSniff
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.NoSniff
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_ContentTypeOptionsConstants_NoSniff
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.NoSniff
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.NoSniff
   nameWithType: ContentTypeOptionsConstants.NoSniff
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants
   name: FrameOptionsConstants
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.html
-  commentId: T:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.html
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants
   nameWithType: FrameOptionsConstants
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.AllowFromUri
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.AllowFromUri
   name: AllowFromUri
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_FrameOptionsConstants_AllowFromUri
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.AllowFromUri
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.AllowFromUri
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_FrameOptionsConstants_AllowFromUri
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.AllowFromUri
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.AllowFromUri
   nameWithType: FrameOptionsConstants.AllowFromUri
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.Deny
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.Deny
   name: Deny
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_FrameOptionsConstants_Deny
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.Deny
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.Deny
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_FrameOptionsConstants_Deny
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.Deny
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.Deny
   nameWithType: FrameOptionsConstants.Deny
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.Header
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.Header
   name: Header
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_FrameOptionsConstants_Header
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.Header
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.Header
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_FrameOptionsConstants_Header
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.Header
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.Header
   nameWithType: FrameOptionsConstants.Header
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.SameOrigin
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.SameOrigin
   name: SameOrigin
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_FrameOptionsConstants_SameOrigin
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.SameOrigin
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.SameOrigin
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_FrameOptionsConstants_SameOrigin
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.SameOrigin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.SameOrigin
   nameWithType: FrameOptionsConstants.SameOrigin
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
   name: ReferrerPolicyConstants
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html
-  commentId: T:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants
   nameWithType: ReferrerPolicyConstants
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Header
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Header
   name: Header
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_Header
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Header
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Header
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_Header
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Header
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Header
   nameWithType: ReferrerPolicyConstants.Header
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer
   name: No_Referrer
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_No_Referrer
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_No_Referrer
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer
   nameWithType: ReferrerPolicyConstants.No_Referrer
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer_When_Downgrade
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer_When_Downgrade
   name: No_Referrer_When_Downgrade
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_No_Referrer_When_Downgrade
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer_When_Downgrade
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer_When_Downgrade
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_No_Referrer_When_Downgrade
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer_When_Downgrade
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.No_Referrer_When_Downgrade
   nameWithType: ReferrerPolicyConstants.No_Referrer_When_Downgrade
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin
   name: Origin
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_Origin
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_Origin
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin
   nameWithType: ReferrerPolicyConstants.Origin
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin_When_Cross_Origin
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin_When_Cross_Origin
   name: Origin_When_Cross_Origin
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_Origin_When_Cross_Origin
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin_When_Cross_Origin
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin_When_Cross_Origin
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_Origin_When_Cross_Origin
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin_When_Cross_Origin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Origin_When_Cross_Origin
   nameWithType: ReferrerPolicyConstants.Origin_When_Cross_Origin
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Same_Origin
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Same_Origin
   name: Same_Origin
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_Same_Origin
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Same_Origin
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Same_Origin
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_Same_Origin
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Same_Origin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Same_Origin
   nameWithType: ReferrerPolicyConstants.Same_Origin
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin
   name: Strict_Origin
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_Strict_Origin
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_Strict_Origin
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin
   nameWithType: ReferrerPolicyConstants.Strict_Origin
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin_When_Cross_Origin
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin_When_Cross_Origin
   name: Strict_Origin_When_Cross_Origin
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_Strict_Origin_When_Cross_Origin
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin_When_Cross_Origin
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin_When_Cross_Origin
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_Strict_Origin_When_Cross_Origin
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin_When_Cross_Origin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Strict_Origin_When_Cross_Origin
   nameWithType: ReferrerPolicyConstants.Strict_Origin_When_Cross_Origin
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Unsafe_Url
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Unsafe_Url
   name: Unsafe_Url
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_Unsafe_Url
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Unsafe_Url
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Unsafe_Url
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_ReferrerPolicyConstants_Unsafe_Url
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Unsafe_Url
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.Unsafe_Url
   nameWithType: ReferrerPolicyConstants.Unsafe_Url
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants
   name: ServerConstants
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.html
-  commentId: T:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.html
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants
   nameWithType: ServerConstants
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.Header
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.Header
   name: Header
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_ServerConstants_Header
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.Header
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.Header
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_ServerConstants_Header
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.Header
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.Header
   nameWithType: ServerConstants.Header
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants
   name: StrictTransportSecurityConstants
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.html
-  commentId: T:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.html
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants
   nameWithType: StrictTransportSecurityConstants
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.Header
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.Header
   name: Header
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_StrictTransportSecurityConstants_Header
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.Header
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.Header
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_StrictTransportSecurityConstants_Header
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.Header
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.Header
   nameWithType: StrictTransportSecurityConstants.Header
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAge
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAge
   name: MaxAge
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_StrictTransportSecurityConstants_MaxAge
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAge
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAge
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_StrictTransportSecurityConstants_MaxAge
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAge
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAge
   nameWithType: StrictTransportSecurityConstants.MaxAge
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAgeIncludeSubdomains
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAgeIncludeSubdomains
   name: MaxAgeIncludeSubdomains
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_StrictTransportSecurityConstants_MaxAgeIncludeSubdomains
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAgeIncludeSubdomains
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAgeIncludeSubdomains
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_StrictTransportSecurityConstants_MaxAgeIncludeSubdomains
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAgeIncludeSubdomains
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.MaxAgeIncludeSubdomains
   nameWithType: StrictTransportSecurityConstants.MaxAgeIncludeSubdomains
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.NoCache
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.NoCache
   name: NoCache
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_StrictTransportSecurityConstants_NoCache
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.NoCache
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.NoCache
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_StrictTransportSecurityConstants_NoCache
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.NoCache
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.NoCache
   nameWithType: StrictTransportSecurityConstants.NoCache
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.OneYearInSeconds
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.OneYearInSeconds
   name: OneYearInSeconds
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_StrictTransportSecurityConstants_OneYearInSeconds
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.OneYearInSeconds
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.OneYearInSeconds
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_StrictTransportSecurityConstants_OneYearInSeconds
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.OneYearInSeconds
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.OneYearInSeconds
   nameWithType: StrictTransportSecurityConstants.OneYearInSeconds
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants
   name: XssProtectionConstants
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.html
-  commentId: T:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.html
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants
   nameWithType: XssProtectionConstants
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Block
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Block
   name: Block
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_XssProtectionConstants_Block
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Block
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Block
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_XssProtectionConstants_Block
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Block
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Block
   nameWithType: XssProtectionConstants.Block
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Disabled
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Disabled
   name: Disabled
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_XssProtectionConstants_Disabled
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Disabled
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Disabled
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_XssProtectionConstants_Disabled
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Disabled
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Disabled
   nameWithType: XssProtectionConstants.Disabled
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Enabled
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Enabled
   name: Enabled
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_XssProtectionConstants_Enabled
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Enabled
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Enabled
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_XssProtectionConstants_Enabled
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Enabled
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Enabled
   nameWithType: XssProtectionConstants.Enabled
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Header
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Header
   name: Header
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_XssProtectionConstants_Header
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Header
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Header
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_XssProtectionConstants_Header
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Header
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Header
   nameWithType: XssProtectionConstants.Header
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Report
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Report
   name: Report
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_Constants_XssProtectionConstants_Report
-  commentId: F:RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Report
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Report
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_Constants_XssProtectionConstants_Report
+  commentId: F:RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Report
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.Report
   nameWithType: XssProtectionConstants.Report
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder
   name: SecurityHeadersBuilder
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html
-  commentId: T:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder
   nameWithType: SecurityHeadersBuilder
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddContentTypeOptionsNoSniff
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddContentTypeOptionsNoSniff
   name: AddContentTypeOptionsNoSniff()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddContentTypeOptionsNoSniff
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddContentTypeOptionsNoSniff
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddContentTypeOptionsNoSniff()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddContentTypeOptionsNoSniff
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddContentTypeOptionsNoSniff
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddContentTypeOptionsNoSniff()
   nameWithType: SecurityHeadersBuilder.AddContentTypeOptionsNoSniff()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddContentTypeOptionsNoSniff*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddContentTypeOptionsNoSniff*
   name: AddContentTypeOptionsNoSniff
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddContentTypeOptionsNoSniff_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddContentTypeOptionsNoSniff
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddContentTypeOptionsNoSniff_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddContentTypeOptionsNoSniff
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddContentTypeOptionsNoSniff
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddContentTypeOptionsNoSniff
   nameWithType: SecurityHeadersBuilder.AddContentTypeOptionsNoSniff
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddCustomHeader(System.String,System.String)
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddCustomHeader(System.String,System.String)
   name: AddCustomHeader(String, String)
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddCustomHeader_System_String_System_String_
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddCustomHeader(System.String,System.String)
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddCustomHeader(System.String, System.String)
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddCustomHeader_System_String_System_String_
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddCustomHeader(System.String,System.String)
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddCustomHeader(System.String, System.String)
   nameWithType: SecurityHeadersBuilder.AddCustomHeader(String, String)
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddCustomHeader*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddCustomHeader*
   name: AddCustomHeader
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddCustomHeader_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddCustomHeader
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddCustomHeader_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddCustomHeader
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddCustomHeader
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddCustomHeader
   nameWithType: SecurityHeadersBuilder.AddCustomHeader
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddDefaultSecurePolicy
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddDefaultSecurePolicy
   name: AddDefaultSecurePolicy()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddDefaultSecurePolicy
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddDefaultSecurePolicy
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddDefaultSecurePolicy()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddDefaultSecurePolicy
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddDefaultSecurePolicy
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddDefaultSecurePolicy()
   nameWithType: SecurityHeadersBuilder.AddDefaultSecurePolicy()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddDefaultSecurePolicy*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddDefaultSecurePolicy*
   name: AddDefaultSecurePolicy
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddDefaultSecurePolicy_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddDefaultSecurePolicy
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddDefaultSecurePolicy_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddDefaultSecurePolicy
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddDefaultSecurePolicy
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddDefaultSecurePolicy
   nameWithType: SecurityHeadersBuilder.AddDefaultSecurePolicy
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsDeny
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsDeny
   name: AddFrameOptionsDeny()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddFrameOptionsDeny
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsDeny
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsDeny()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddFrameOptionsDeny
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsDeny
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsDeny()
   nameWithType: SecurityHeadersBuilder.AddFrameOptionsDeny()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsDeny*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsDeny*
   name: AddFrameOptionsDeny
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddFrameOptionsDeny_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsDeny
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddFrameOptionsDeny_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsDeny
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsDeny
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsDeny
   nameWithType: SecurityHeadersBuilder.AddFrameOptionsDeny
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin
   name: AddFrameOptionsSameOrigin()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddFrameOptionsSameOrigin
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddFrameOptionsSameOrigin
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin()
   nameWithType: SecurityHeadersBuilder.AddFrameOptionsSameOrigin()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin(System.String)
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin(System.String)
   name: AddFrameOptionsSameOrigin(String)
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddFrameOptionsSameOrigin_System_String_
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin(System.String)
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin(System.String)
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddFrameOptionsSameOrigin_System_String_
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin(System.String)
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin(System.String)
   nameWithType: SecurityHeadersBuilder.AddFrameOptionsSameOrigin(String)
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin*
   name: AddFrameOptionsSameOrigin
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddFrameOptionsSameOrigin_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddFrameOptionsSameOrigin_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin
   nameWithType: SecurityHeadersBuilder.AddFrameOptionsSameOrigin
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrer
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrer
   name: AddReferrerPolicyNoReferrer()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyNoReferrer
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrer
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrer()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyNoReferrer
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrer
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrer()
   nameWithType: SecurityHeadersBuilder.AddReferrerPolicyNoReferrer()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrer*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrer*
   name: AddReferrerPolicyNoReferrer
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyNoReferrer_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrer
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyNoReferrer_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrer
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrer
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrer
   nameWithType: SecurityHeadersBuilder.AddReferrerPolicyNoReferrer
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrerWhenDowngrade
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrerWhenDowngrade
   name: AddReferrerPolicyNoReferrerWhenDowngrade()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyNoReferrerWhenDowngrade
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrerWhenDowngrade
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrerWhenDowngrade()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyNoReferrerWhenDowngrade
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrerWhenDowngrade
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrerWhenDowngrade()
   nameWithType: SecurityHeadersBuilder.AddReferrerPolicyNoReferrerWhenDowngrade()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrerWhenDowngrade*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrerWhenDowngrade*
   name: AddReferrerPolicyNoReferrerWhenDowngrade
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyNoReferrerWhenDowngrade_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrerWhenDowngrade
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyNoReferrerWhenDowngrade_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrerWhenDowngrade
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrerWhenDowngrade
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyNoReferrerWhenDowngrade
   nameWithType: SecurityHeadersBuilder.AddReferrerPolicyNoReferrerWhenDowngrade
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOrigin
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOrigin
   name: AddReferrerPolicyOrigin()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyOrigin
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOrigin
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOrigin()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyOrigin
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOrigin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOrigin()
   nameWithType: SecurityHeadersBuilder.AddReferrerPolicyOrigin()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOrigin*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOrigin*
   name: AddReferrerPolicyOrigin
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyOrigin_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOrigin
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyOrigin_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOrigin
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOrigin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOrigin
   nameWithType: SecurityHeadersBuilder.AddReferrerPolicyOrigin
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOriginWhenCrossOrigin
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOriginWhenCrossOrigin
   name: AddReferrerPolicyOriginWhenCrossOrigin()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyOriginWhenCrossOrigin
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOriginWhenCrossOrigin
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOriginWhenCrossOrigin()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyOriginWhenCrossOrigin
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOriginWhenCrossOrigin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOriginWhenCrossOrigin()
   nameWithType: SecurityHeadersBuilder.AddReferrerPolicyOriginWhenCrossOrigin()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOriginWhenCrossOrigin*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOriginWhenCrossOrigin*
   name: AddReferrerPolicyOriginWhenCrossOrigin
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyOriginWhenCrossOrigin_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOriginWhenCrossOrigin
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyOriginWhenCrossOrigin_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOriginWhenCrossOrigin
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOriginWhenCrossOrigin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyOriginWhenCrossOrigin
   nameWithType: SecurityHeadersBuilder.AddReferrerPolicyOriginWhenCrossOrigin
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicySameOrigin
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicySameOrigin
   name: AddReferrerPolicySameOrigin()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicySameOrigin
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicySameOrigin
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicySameOrigin()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicySameOrigin
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicySameOrigin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicySameOrigin()
   nameWithType: SecurityHeadersBuilder.AddReferrerPolicySameOrigin()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicySameOrigin*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicySameOrigin*
   name: AddReferrerPolicySameOrigin
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicySameOrigin_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicySameOrigin
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicySameOrigin_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicySameOrigin
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicySameOrigin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicySameOrigin
   nameWithType: SecurityHeadersBuilder.AddReferrerPolicySameOrigin
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOrigin
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOrigin
   name: AddReferrerPolicyStrictOrigin()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyStrictOrigin
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOrigin
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOrigin()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyStrictOrigin
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOrigin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOrigin()
   nameWithType: SecurityHeadersBuilder.AddReferrerPolicyStrictOrigin()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOrigin*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOrigin*
   name: AddReferrerPolicyStrictOrigin
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyStrictOrigin_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOrigin
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyStrictOrigin_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOrigin
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOrigin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOrigin
   nameWithType: SecurityHeadersBuilder.AddReferrerPolicyStrictOrigin
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOriginWhenCrossOrigin
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOriginWhenCrossOrigin
   name: AddReferrerPolicyStrictOriginWhenCrossOrigin()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyStrictOriginWhenCrossOrigin
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOriginWhenCrossOrigin
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOriginWhenCrossOrigin()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyStrictOriginWhenCrossOrigin
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOriginWhenCrossOrigin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOriginWhenCrossOrigin()
   nameWithType: SecurityHeadersBuilder.AddReferrerPolicyStrictOriginWhenCrossOrigin()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOriginWhenCrossOrigin*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOriginWhenCrossOrigin*
   name: AddReferrerPolicyStrictOriginWhenCrossOrigin
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyStrictOriginWhenCrossOrigin_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOriginWhenCrossOrigin
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyStrictOriginWhenCrossOrigin_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOriginWhenCrossOrigin
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOriginWhenCrossOrigin
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyStrictOriginWhenCrossOrigin
   nameWithType: SecurityHeadersBuilder.AddReferrerPolicyStrictOriginWhenCrossOrigin
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyUnsafeUrl
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyUnsafeUrl
   name: AddReferrerPolicyUnsafeUrl()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyUnsafeUrl
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyUnsafeUrl
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyUnsafeUrl()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyUnsafeUrl
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyUnsafeUrl
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyUnsafeUrl()
   nameWithType: SecurityHeadersBuilder.AddReferrerPolicyUnsafeUrl()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyUnsafeUrl*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyUnsafeUrl*
   name: AddReferrerPolicyUnsafeUrl
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyUnsafeUrl_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyUnsafeUrl
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddReferrerPolicyUnsafeUrl_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyUnsafeUrl
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyUnsafeUrl
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddReferrerPolicyUnsafeUrl
   nameWithType: SecurityHeadersBuilder.AddReferrerPolicyUnsafeUrl
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddStrictTransportSecurity
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddStrictTransportSecurity
   name: AddStrictTransportSecurity()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddStrictTransportSecurity
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddStrictTransportSecurity
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddStrictTransportSecurity()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddStrictTransportSecurity
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddStrictTransportSecurity
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddStrictTransportSecurity()
   nameWithType: SecurityHeadersBuilder.AddStrictTransportSecurity()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddStrictTransportSecurity*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddStrictTransportSecurity*
   name: AddStrictTransportSecurity
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddStrictTransportSecurity_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddStrictTransportSecurity
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddStrictTransportSecurity_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddStrictTransportSecurity
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddStrictTransportSecurity
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddStrictTransportSecurity
   nameWithType: SecurityHeadersBuilder.AddStrictTransportSecurity
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionBlock
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionBlock
   name: AddXssProtectionBlock()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddXssProtectionBlock
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionBlock
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionBlock()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddXssProtectionBlock
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionBlock
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionBlock()
   nameWithType: SecurityHeadersBuilder.AddXssProtectionBlock()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionBlock*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionBlock*
   name: AddXssProtectionBlock
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddXssProtectionBlock_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionBlock
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddXssProtectionBlock_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionBlock
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionBlock
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionBlock
   nameWithType: SecurityHeadersBuilder.AddXssProtectionBlock
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionDisabled
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionDisabled
   name: AddXssProtectionDisabled()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddXssProtectionDisabled
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionDisabled
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionDisabled()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddXssProtectionDisabled
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionDisabled
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionDisabled()
   nameWithType: SecurityHeadersBuilder.AddXssProtectionDisabled()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionDisabled*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionDisabled*
   name: AddXssProtectionDisabled
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddXssProtectionDisabled_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionDisabled
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddXssProtectionDisabled_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionDisabled
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionDisabled
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionDisabled
   nameWithType: SecurityHeadersBuilder.AddXssProtectionDisabled
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionEnabled
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionEnabled
   name: AddXssProtectionEnabled()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddXssProtectionEnabled
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionEnabled
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionEnabled()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddXssProtectionEnabled
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionEnabled
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionEnabled()
   nameWithType: SecurityHeadersBuilder.AddXssProtectionEnabled()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionEnabled*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionEnabled*
   name: AddXssProtectionEnabled
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddXssProtectionEnabled_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionEnabled
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddXssProtectionEnabled_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionEnabled
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionEnabled
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionEnabled
   nameWithType: SecurityHeadersBuilder.AddXssProtectionEnabled
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionReport(System.String)
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionReport(System.String)
   name: AddXssProtectionReport(String)
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddXssProtectionReport_System_String_
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionReport(System.String)
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionReport(System.String)
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddXssProtectionReport_System_String_
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionReport(System.String)
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionReport(System.String)
   nameWithType: SecurityHeadersBuilder.AddXssProtectionReport(String)
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionReport*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionReport*
   name: AddXssProtectionReport
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddXssProtectionReport_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionReport
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_AddXssProtectionReport_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionReport
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionReport
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddXssProtectionReport
   nameWithType: SecurityHeadersBuilder.AddXssProtectionReport
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.Build
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.Build
   name: Build()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_Build
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.Build
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.Build()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_Build
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.Build
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.Build()
   nameWithType: SecurityHeadersBuilder.Build()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.Build*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.Build*
   name: Build
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_Build_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.Build
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_Build_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.Build
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.Build
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.Build
   nameWithType: SecurityHeadersBuilder.Build
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveHeader(System.String)
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveHeader(System.String)
   name: RemoveHeader(String)
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_RemoveHeader_System_String_
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveHeader(System.String)
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveHeader(System.String)
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_RemoveHeader_System_String_
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveHeader(System.String)
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveHeader(System.String)
   nameWithType: SecurityHeadersBuilder.RemoveHeader(String)
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveHeader*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveHeader*
   name: RemoveHeader
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_RemoveHeader_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveHeader
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_RemoveHeader_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveHeader
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveHeader
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveHeader
   nameWithType: SecurityHeadersBuilder.RemoveHeader
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveServerHeader
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveServerHeader
   name: RemoveServerHeader()
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_RemoveServerHeader
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveServerHeader
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveServerHeader()
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_RemoveServerHeader
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveServerHeader
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveServerHeader()
   nameWithType: SecurityHeadersBuilder.RemoveServerHeader()
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveServerHeader*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveServerHeader*
   name: RemoveServerHeader
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_RemoveServerHeader_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveServerHeader
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_RemoveServerHeader_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveServerHeader
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveServerHeader
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.RemoveServerHeader
   nameWithType: SecurityHeadersBuilder.RemoveServerHeader
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware
   name: SecurityHeadersMiddleware
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.html
-  commentId: T:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.html
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware
   nameWithType: SecurityHeadersMiddleware
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy)
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy)
   name: SecurityHeadersMiddleware(RequestDelegate, SecurityHeadersPolicy)
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersPolicy_
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy)
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.SecurityHeadersMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy)
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersPolicy_
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy)
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.SecurityHeadersMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy)
   nameWithType: SecurityHeadersMiddleware.SecurityHeadersMiddleware(RequestDelegate, SecurityHeadersPolicy)
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.#ctor*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.#ctor*
   name: SecurityHeadersMiddleware
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersMiddleware__ctor_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.#ctor
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersMiddleware__ctor_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.#ctor
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.SecurityHeadersMiddleware
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.SecurityHeadersMiddleware
   nameWithType: SecurityHeadersMiddleware.SecurityHeadersMiddleware
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
   name: Invoke(HttpContext)
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersMiddleware_Invoke_Microsoft_AspNetCore_Http_HttpContext_
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersMiddleware_Invoke_Microsoft_AspNetCore_Http_HttpContext_
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
   nameWithType: SecurityHeadersMiddleware.Invoke(HttpContext)
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke*
   name: Invoke
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersMiddleware_Invoke_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersMiddleware_Invoke_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.Invoke
   nameWithType: SecurityHeadersMiddleware.Invoke
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions
   name: SecurityHeadersMiddlewareExtensions
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.html
-  commentId: T:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.html
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions
   nameWithType: SecurityHeadersMiddlewareExtensions
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder)
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder)
   name: UseSecurityHeadersMiddleware(IApplicationBuilder, SecurityHeadersBuilder)
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersMiddlewareExtensions_UseSecurityHeadersMiddleware_Microsoft_AspNetCore_Builder_IApplicationBuilder_RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_
-  commentId: M:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder)
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder, RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder)
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersMiddlewareExtensions_UseSecurityHeadersMiddleware_Microsoft_AspNetCore_Builder_IApplicationBuilder_RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersBuilder_
+  commentId: M:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder)
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder, RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder)
   nameWithType: SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware(IApplicationBuilder, SecurityHeadersBuilder)
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware*
   name: UseSecurityHeadersMiddleware
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersMiddlewareExtensions_UseSecurityHeadersMiddleware_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersMiddlewareExtensions_UseSecurityHeadersMiddleware_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware
   nameWithType: SecurityHeadersMiddlewareExtensions.UseSecurityHeadersMiddleware
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy
   name: SecurityHeadersPolicy
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.html
-  commentId: T:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.html
+  commentId: T:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy
   nameWithType: SecurityHeadersPolicy
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
   name: RemoveHeaders
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersPolicy_RemoveHeaders
-  commentId: P:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersPolicy_RemoveHeaders
+  commentId: P:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
   nameWithType: SecurityHeadersPolicy.RemoveHeaders
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders*
   name: RemoveHeaders
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersPolicy_RemoveHeaders_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersPolicy_RemoveHeaders_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
   nameWithType: SecurityHeadersPolicy.RemoveHeaders
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
   name: SetHeaders
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersPolicy_SetHeaders
-  commentId: P:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersPolicy_SetHeaders
+  commentId: P:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
   nameWithType: SecurityHeadersPolicy.SetHeaders
-- uid: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders*
+- uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders*
   name: SetHeaders
-  href: api/RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.html#RWD_Toolboox_Ui_Middleware_SecurityHeaders_SecurityHeadersPolicy_SetHeaders_
-  commentId: Overload:RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
+  href: api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.html#RWD_Toolbox_Ui_Middleware_SecurityHeaders_SecurityHeadersPolicy_SetHeaders_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
   isSpec: "True"
-  fullName: RWD.Toolboox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
+  fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
   nameWithType: SecurityHeadersPolicy.SetHeaders
