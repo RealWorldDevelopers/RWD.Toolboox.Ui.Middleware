@@ -1,19 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Description>A Free .NET Core Library to assist with writing a HTML Content Security Policy Header.</Description>
-    <Copyright>RealWorldDevelopers 2019</Copyright>
+    <TargetFramework>net6.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>A Free .NET Library to assist with writing a HTML Content Security Policy Header.</Description>
+    <Copyright>RealWorldDevelopers 2022</Copyright>
     <PackageProjectUrl>http://www.realworlddevelopers.com</PackageProjectUrl>
-    <PackageIconUrl>https://www.realworlddevelopers.com/resources/images/rwdevs-nuget.jpg</PackageIconUrl>
+    <PackageIconUrl></PackageIconUrl>
     <RepositoryUrl>https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageTags>CSP Content Security Policy Middleware RealWorldDevelopers .NET Core</PackageTags>
-    <PackageReleaseNotes>Update to Core 3.1
-Minor Bug Fixes with namespace</PackageReleaseNotes>
+    <PackageReleaseNotes>Update to .NET 6.0</PackageReleaseNotes>
     <PackageLicenseFile>eula.md</PackageLicenseFile>
-    <Version>1.0.1</Version>
+    <Version>2.0.0</Version>
+    <PackageIcon>RWDevs-NuGet.jpg</PackageIcon>
+    <Authors>RealWorldDevelopers</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -29,7 +31,15 @@ Minor Bug Fixes with namespace</PackageReleaseNotes>
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="E:\gator4123\home\ka8kgj\public_html\legal\eula.md">
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\RWDevs-NuGet.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\eula.md">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
