@@ -1,11 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29326.143
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RWD.Toolbox.Ui.Middleware.CspHeader", "RWD.Toolbox.Ui.Middleware.CspHeader\RWD.Toolbox.Ui.Middleware.CspHeader.csproj", "{D94737EB-FE07-4EF9-81B2-B102B93FC164}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RWD.Toolbox.Ui.Middleware.SecurityHeaders", "RWD.Toolbox.Ui.Middleware.SecurityHeaders\RWD.Toolbox.Ui.Middleware.SecurityHeaders.csproj", "{A053D741-662F-4798-9207-475E32ED7508}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Itmes", "Solution Itmes", "{DCF7A767-33CF-4FE0-B3BD-AEA531158951}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		eula.md = eula.md
+		README.md = README.md
+		RWDevs-NuGet.jpg = RWDevs-NuGet.jpg
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -15,12 +15,9 @@ RWD.Toolbox.Ui.Middleware.CspHeader
 + ### [Nuget Package](https://www.nuget.org/packages/RWD.Toolbox.Ui.Middleware.CspHeader/)
 
 ### Quick Start Notes
-* #### v1.0.0.1  
-	* Namespace Spelling
-	* .Net Core 3.1
-* #### v1.0.0.0  
+* #### v2.0.0.0  
 	* Initial Release
-	* .Net Core
+	* .Net 6
   
 [Real World Developers](https://www.realworlddevelopers.com)
 -----------------------------
