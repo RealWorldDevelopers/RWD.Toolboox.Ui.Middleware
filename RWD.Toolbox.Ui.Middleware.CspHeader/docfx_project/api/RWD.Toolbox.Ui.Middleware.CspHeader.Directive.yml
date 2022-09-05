@@ -18,7 +18,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/Directive.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Directive
     path: ../Directive.cs
     startLine: 6
@@ -58,7 +58,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/Directive.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Header
     path: ../Directive.cs
     startLine: 9
@@ -97,7 +97,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/Directive.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Sources
     path: ../Directive.cs
     startLine: 12

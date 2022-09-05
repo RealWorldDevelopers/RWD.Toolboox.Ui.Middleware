@@ -26,7 +26,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: CspDirectivesBuilder
     path: ../CspDirectivesBuilder.cs
     startLine: 7
@@ -65,7 +65,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Default_Src
     path: ../CspDirectivesBuilder.cs
     startLine: 16
@@ -102,7 +102,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Scripts_Src
     path: ../CspDirectivesBuilder.cs
     startLine: 21
@@ -139,7 +139,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Styles_Src
     path: ../CspDirectivesBuilder.cs
     startLine: 26
@@ -176,7 +176,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Imgs_Src
     path: ../CspDirectivesBuilder.cs
     startLine: 31
@@ -213,7 +213,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Fonts_Src
     path: ../CspDirectivesBuilder.cs
     startLine: 36
@@ -250,7 +250,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Medias_Src
     path: ../CspDirectivesBuilder.cs
     startLine: 41
@@ -287,7 +287,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Object_Src
     path: ../CspDirectivesBuilder.cs
     startLine: 46
@@ -324,7 +324,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Connect_Src
     path: ../CspDirectivesBuilder.cs
     startLine: 51
@@ -361,7 +361,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Frame_Ancestors
     path: ../CspDirectivesBuilder.cs
     startLine: 56
@@ -398,7 +398,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: ReportUri
     path: ../CspDirectivesBuilder.cs
     startLine: 61

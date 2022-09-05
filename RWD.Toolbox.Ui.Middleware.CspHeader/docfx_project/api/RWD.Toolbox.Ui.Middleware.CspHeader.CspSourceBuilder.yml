@@ -24,7 +24,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: CspSourceBuilder
     path: ../CspSourceBuilder.cs
     startLine: 9
@@ -63,7 +63,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AllowSelf
     path: ../CspSourceBuilder.cs
     startLine: 18
@@ -97,7 +97,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AllowNone
     path: ../CspSourceBuilder.cs
     startLine: 23
@@ -131,7 +131,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AllowAny
     path: ../CspSourceBuilder.cs
     startLine: 28
@@ -165,7 +165,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AllowData
     path: ../CspSourceBuilder.cs
     startLine: 33
@@ -199,7 +199,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AllowUnsafeInline
     path: ../CspSourceBuilder.cs
     startLine: 38
@@ -233,7 +233,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AllowUnsafeEval
     path: ../CspSourceBuilder.cs
     startLine: 43
@@ -267,7 +267,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AllowNonce
     path: ../CspSourceBuilder.cs
     startLine: 49
@@ -305,7 +305,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspSourceBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Allow
     path: ../CspSourceBuilder.cs
     startLine: 55
