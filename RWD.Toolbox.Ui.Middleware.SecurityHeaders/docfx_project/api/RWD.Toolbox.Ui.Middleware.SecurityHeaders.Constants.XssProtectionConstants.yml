@@ -21,7 +21,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/XssProtectionConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: XssProtectionConstants
     path: ../Constants/XssProtectionConstants.cs
     startLine: 6
@@ -59,7 +59,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/XssProtectionConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Header
     path: ../Constants/XssProtectionConstants.cs
     startLine: 11
@@ -96,7 +96,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/XssProtectionConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Enabled
     path: ../Constants/XssProtectionConstants.cs
     startLine: 16
@@ -133,7 +133,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/XssProtectionConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Disabled
     path: ../Constants/XssProtectionConstants.cs
     startLine: 21
@@ -170,7 +170,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/XssProtectionConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Block
     path: ../Constants/XssProtectionConstants.cs
     startLine: 26
@@ -207,7 +207,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/XssProtectionConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Report
     path: ../Constants/XssProtectionConstants.cs
     startLine: 32

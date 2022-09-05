@@ -20,7 +20,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/FrameOptionsConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: FrameOptionsConstants
     path: ../Constants/FrameOptionsConstants.cs
     startLine: 6
@@ -58,7 +58,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/FrameOptionsConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Header
     path: ../Constants/FrameOptionsConstants.cs
     startLine: 11
@@ -95,7 +95,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/FrameOptionsConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Deny
     path: ../Constants/FrameOptionsConstants.cs
     startLine: 16
@@ -132,7 +132,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/FrameOptionsConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: SameOrigin
     path: ../Constants/FrameOptionsConstants.cs
     startLine: 21
@@ -169,7 +169,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/FrameOptionsConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AllowFromUri
     path: ../Constants/FrameOptionsConstants.cs
     startLine: 26

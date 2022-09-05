@@ -17,7 +17,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersMiddlewareExtensions.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: SecurityHeadersMiddlewareExtensions
     path: ../SecurityHeadersMiddlewareExtensions.cs
     startLine: 8
@@ -56,7 +56,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersMiddlewareExtensions.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: UseSecurityHeadersMiddleware
     path: ../SecurityHeadersMiddlewareExtensions.cs
     startLine: 16

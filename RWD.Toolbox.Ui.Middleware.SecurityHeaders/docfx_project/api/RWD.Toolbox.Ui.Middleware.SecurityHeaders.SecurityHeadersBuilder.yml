@@ -38,7 +38,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: SecurityHeadersBuilder
     path: ../SecurityHeadersBuilder.cs
     startLine: 7
@@ -75,7 +75,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddDefaultSecurePolicy
     path: ../SecurityHeadersBuilder.cs
     startLine: 14
@@ -109,7 +109,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddFrameOptionsDeny
     path: ../SecurityHeadersBuilder.cs
     startLine: 31
@@ -143,7 +143,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddFrameOptionsSameOrigin
     path: ../SecurityHeadersBuilder.cs
     startLine: 41
@@ -177,7 +177,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddFrameOptionsSameOrigin
     path: ../SecurityHeadersBuilder.cs
     startLine: 52
@@ -215,7 +215,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddReferrerPolicyNoReferrer
     path: ../SecurityHeadersBuilder.cs
     startLine: 67
@@ -249,7 +249,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddReferrerPolicyNoReferrerWhenDowngrade
     path: ../SecurityHeadersBuilder.cs
     startLine: 79
@@ -283,7 +283,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddReferrerPolicyOrigin
     path: ../SecurityHeadersBuilder.cs
     startLine: 90
@@ -317,7 +317,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddReferrerPolicyOriginWhenCrossOrigin
     path: ../SecurityHeadersBuilder.cs
     startLine: 100
@@ -351,7 +351,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddReferrerPolicySameOrigin
     path: ../SecurityHeadersBuilder.cs
     startLine: 110
@@ -385,7 +385,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddReferrerPolicyStrictOrigin
     path: ../SecurityHeadersBuilder.cs
     startLine: 121
@@ -419,7 +419,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddReferrerPolicyStrictOriginWhenCrossOrigin
     path: ../SecurityHeadersBuilder.cs
     startLine: 132
@@ -453,7 +453,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddReferrerPolicyUnsafeUrl
     path: ../SecurityHeadersBuilder.cs
     startLine: 144
@@ -487,7 +487,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddXssProtectionEnabled
     path: ../SecurityHeadersBuilder.cs
     startLine: 159
@@ -521,7 +521,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddXssProtectionDisabled
     path: ../SecurityHeadersBuilder.cs
     startLine: 169
@@ -555,7 +555,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddXssProtectionBlock
     path: ../SecurityHeadersBuilder.cs
     startLine: 179
@@ -589,7 +589,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddXssProtectionReport
     path: ../SecurityHeadersBuilder.cs
     startLine: 189
@@ -626,7 +626,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddContentTypeOptionsNoSniff
     path: ../SecurityHeadersBuilder.cs
     startLine: 202
@@ -660,7 +660,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddStrictTransportSecurity
     path: ../SecurityHeadersBuilder.cs
     startLine: 211
@@ -694,7 +694,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: RemoveServerHeader
     path: ../SecurityHeadersBuilder.cs
     startLine: 220
@@ -728,7 +728,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: AddCustomHeader
     path: ../SecurityHeadersBuilder.cs
     startLine: 232
@@ -770,7 +770,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: RemoveHeader
     path: ../SecurityHeadersBuilder.cs
     startLine: 243
@@ -809,7 +809,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Build
     path: ../SecurityHeadersBuilder.cs
     startLine: 254

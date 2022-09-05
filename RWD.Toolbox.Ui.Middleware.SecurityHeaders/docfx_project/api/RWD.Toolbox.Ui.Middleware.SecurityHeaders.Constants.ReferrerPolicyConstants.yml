@@ -25,7 +25,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: ReferrerPolicyConstants
     path: ../Constants/ReferrerPolicyConstants.cs
     startLine: 6
@@ -63,7 +63,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Header
     path: ../Constants/ReferrerPolicyConstants.cs
     startLine: 11
@@ -100,7 +100,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: No_Referrer
     path: ../Constants/ReferrerPolicyConstants.cs
     startLine: 16
@@ -137,7 +137,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: No_Referrer_When_Downgrade
     path: ../Constants/ReferrerPolicyConstants.cs
     startLine: 21
@@ -174,7 +174,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Origin
     path: ../Constants/ReferrerPolicyConstants.cs
     startLine: 26
@@ -211,7 +211,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Origin_When_Cross_Origin
     path: ../Constants/ReferrerPolicyConstants.cs
     startLine: 31
@@ -248,7 +248,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Same_Origin
     path: ../Constants/ReferrerPolicyConstants.cs
     startLine: 36
@@ -285,7 +285,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Strict_Origin
     path: ../Constants/ReferrerPolicyConstants.cs
     startLine: 41
@@ -322,7 +322,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Strict_Origin_When_Cross_Origin
     path: ../Constants/ReferrerPolicyConstants.cs
     startLine: 46
@@ -359,7 +359,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/ReferrerPolicyConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Unsafe_Url
     path: ../Constants/ReferrerPolicyConstants.cs
     startLine: 51

@@ -21,7 +21,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/StrictTransportSecurityConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: StrictTransportSecurityConstants
     path: ../Constants/StrictTransportSecurityConstants.cs
     startLine: 6
@@ -59,7 +59,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/StrictTransportSecurityConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: OneYearInSeconds
     path: ../Constants/StrictTransportSecurityConstants.cs
     startLine: 11
@@ -94,7 +94,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/StrictTransportSecurityConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: Header
     path: ../Constants/StrictTransportSecurityConstants.cs
     startLine: 16
@@ -131,7 +131,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/StrictTransportSecurityConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: MaxAge
     path: ../Constants/StrictTransportSecurityConstants.cs
     startLine: 21
@@ -168,7 +168,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/StrictTransportSecurityConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: MaxAgeIncludeSubdomains
     path: ../Constants/StrictTransportSecurityConstants.cs
     startLine: 26
@@ -205,7 +205,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/Constants/StrictTransportSecurityConstants.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolboox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
     id: NoCache
     path: ../Constants/StrictTransportSecurityConstants.cs
     startLine: 31
