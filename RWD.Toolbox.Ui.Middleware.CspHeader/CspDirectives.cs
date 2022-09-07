@@ -33,6 +33,33 @@ namespace RWD.Toolbox.Ui.Middleware.CspHeader
 
         /// <inheritdoc/>
         public string ReportUri { get; set; }
+
+        /// <inheritdoc/>
+        public IDirective Frame_Src { get; set; } = new Directive { Header = "frame-src" };
+
+        /// <inheritdoc/>
+        public IDirective Form_Action { get; set; } = new Directive { Header = "form-action" };
+
+        /// <inheritdoc/>
+        public IDirective Base_Uri { get; set; } = new Directive { Header = "base-uri" };
+
+        /// <inheritdoc/>
+        public IDirective Report_To { get; set; } = new Directive { Header = "report-to" };
+
+        /// <inheritdoc/>
+        public IDirective Worker_Src { get; set; } = new Directive { Header = "worker-src" };
+
+        /// <inheritdoc/>
+        public IDirective Manifest_Src { get; set; } = new Directive { Header = "manifest-src" };
+
+        /// <inheritdoc/>
+        public IDirective Prefetch_Src { get; set; } = new Directive { Header = "prefetch-src" };
+
+        /// <inheritdoc/>
+        public IDirective Navigate_To { get; set; } = new Directive { Header = "navigate-to" };
+
+
+
     }
 
 }

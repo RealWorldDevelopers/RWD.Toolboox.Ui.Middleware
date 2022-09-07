@@ -18,7 +18,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/IDirective.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: IDirective
     path: ../IDirective.cs
     startLine: 7
@@ -51,7 +51,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/IDirective.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Header
     path: ../IDirective.cs
     startLine: 12
@@ -85,7 +85,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/IDirective.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Sources
     path: ../IDirective.cs
     startLine: 17
@@ -98,7 +98,7 @@ items:
     content: IList<string> Sources { get; set; }
     parameters: []
     return:
-      type: IList{System.String}
+      type: System.Collections.Generic.IList{System.String}
     content.vb: Property Sources As IList(Of String)
   overload: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.Sources*
   modifiers.csharp:
@@ -116,29 +116,38 @@ references:
   nameWithType: IDirective.Header
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.Header
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.Sources*
   commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.Sources
   name: Sources
   nameWithType: IDirective.Sources
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.Sources
-- uid: IList{System.String}
-  commentId: '!:IList{System.String}'
-  definition: IList`1
+- uid: System.Collections.Generic.IList{System.String}
+  commentId: T:System.Collections.Generic.IList{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
   name: IList<String>
   nameWithType: IList<String>
-  fullName: IList<System.String>
+  fullName: System.Collections.Generic.IList<System.String>
   nameWithType.vb: IList(Of String)
-  fullName.vb: IList(Of System.String)
+  fullName.vb: System.Collections.Generic.IList(Of System.String)
   name.vb: IList(Of String)
   spec.csharp:
-  - uid: IList`1
+  - uid: System.Collections.Generic.IList`1
     name: IList
     nameWithType: IList
-    fullName: IList
+    fullName: System.Collections.Generic.IList
     isExternal: true
   - name: <
     nameWithType: <
@@ -152,10 +161,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: IList`1
+  - uid: System.Collections.Generic.IList`1
     name: IList
     nameWithType: IList
-    fullName: IList
+    fullName: System.Collections.Generic.IList
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -168,41 +177,48 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: IList`1
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
   isExternal: true
-  name: IList<>
-  nameWithType: IList<>
-  fullName: IList<>
-  nameWithType.vb: IList(Of )
-  fullName.vb: IList(Of )
-  name.vb: IList(Of )
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
   spec.csharp:
-  - uid: IList`1
+  - uid: System.Collections.Generic.IList`1
     name: IList
     nameWithType: IList
-    fullName: IList
+    fullName: System.Collections.Generic.IList
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: IList`1
+  - uid: System.Collections.Generic.IList`1
     name: IList
     nameWithType: IList
-    fullName: IList
+    fullName: System.Collections.Generic.IList
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

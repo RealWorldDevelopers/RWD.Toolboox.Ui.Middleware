@@ -5,16 +5,24 @@ items:
   id: CspDirectivesBuilder
   parent: RWD.Toolbox.Ui.Middleware.CspHeader
   children:
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Base_Uri
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Connect_Src
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Default_Src
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Fonts_Src
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Form_Action
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Ancestors
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Src
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Imgs_Src
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Manifest_Src
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Medias_Src
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Navigate_To
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Object_Src
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Prefetch_Src
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Report_To
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.ReportUri
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Scripts_Src
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Styles_Src
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Worker_Src
   langs:
   - csharp
   - vb
@@ -26,7 +34,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: CspDirectivesBuilder
     path: ../CspDirectivesBuilder.cs
     startLine: 7
@@ -36,12 +44,18 @@ items:
   summary: "\nCSP Directives Builder\n"
   example: []
   syntax:
-    content: 'public sealed class CspDirectivesBuilder : object'
-    content.vb: >-
-      Public NotInheritable Class CspDirectivesBuilder
-          Inherits Object
+    content: public sealed class CspDirectivesBuilder
+    content.vb: Public NotInheritable Class CspDirectivesBuilder
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - sealed
@@ -65,7 +79,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Default_Src
     path: ../CspDirectivesBuilder.cs
     startLine: 16
@@ -102,7 +116,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Scripts_Src
     path: ../CspDirectivesBuilder.cs
     startLine: 21
@@ -139,7 +153,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Styles_Src
     path: ../CspDirectivesBuilder.cs
     startLine: 26
@@ -176,7 +190,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Imgs_Src
     path: ../CspDirectivesBuilder.cs
     startLine: 31
@@ -213,7 +227,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Fonts_Src
     path: ../CspDirectivesBuilder.cs
     startLine: 36
@@ -250,7 +264,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Medias_Src
     path: ../CspDirectivesBuilder.cs
     startLine: 41
@@ -287,7 +301,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Object_Src
     path: ../CspDirectivesBuilder.cs
     startLine: 46
@@ -324,7 +338,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Connect_Src
     path: ../CspDirectivesBuilder.cs
     startLine: 51
@@ -361,7 +375,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Frame_Ancestors
     path: ../CspDirectivesBuilder.cs
     startLine: 56
@@ -398,7 +412,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: ReportUri
     path: ../CspDirectivesBuilder.cs
     startLine: 61
@@ -420,12 +434,600 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Src
+  id: Frame_Src
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder
+  langs:
+  - csharp
+  - vb
+  name: Frame_Src
+  nameWithType: CspDirectivesBuilder.Frame_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Src
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
+    id: Frame_Src
+    path: ../CspDirectivesBuilder.cs
+    startLine: 65
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nBuilder for Frame Src\n"
+  example: []
+  syntax:
+    content: public CspSourceBuilder Frame_Src { get; set; }
+    parameters: []
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+    content.vb: Public Property Frame_Src As CspSourceBuilder
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Src*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Form_Action
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Form_Action
+  id: Form_Action
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder
+  langs:
+  - csharp
+  - vb
+  name: Form_Action
+  nameWithType: CspDirectivesBuilder.Form_Action
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Form_Action
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
+    id: Form_Action
+    path: ../CspDirectivesBuilder.cs
+    startLine: 70
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nBuilder for Form Action\n"
+  example: []
+  syntax:
+    content: public CspSourceBuilder Form_Action { get; set; }
+    parameters: []
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+    content.vb: Public Property Form_Action As CspSourceBuilder
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Form_Action*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Base_Uri
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Base_Uri
+  id: Base_Uri
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder
+  langs:
+  - csharp
+  - vb
+  name: Base_Uri
+  nameWithType: CspDirectivesBuilder.Base_Uri
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Base_Uri
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
+    id: Base_Uri
+    path: ../CspDirectivesBuilder.cs
+    startLine: 75
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nBuilder for Base Uri\n"
+  example: []
+  syntax:
+    content: public CspSourceBuilder Base_Uri { get; set; }
+    parameters: []
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+    content.vb: Public Property Base_Uri As CspSourceBuilder
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Base_Uri*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Report_To
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Report_To
+  id: Report_To
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder
+  langs:
+  - csharp
+  - vb
+  name: Report_To
+  nameWithType: CspDirectivesBuilder.Report_To
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Report_To
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
+    id: Report_To
+    path: ../CspDirectivesBuilder.cs
+    startLine: 80
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nBuilder for Report To\n"
+  example: []
+  syntax:
+    content: public CspSourceBuilder Report_To { get; set; }
+    parameters: []
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+    content.vb: Public Property Report_To As CspSourceBuilder
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Report_To*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Worker_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Worker_Src
+  id: Worker_Src
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder
+  langs:
+  - csharp
+  - vb
+  name: Worker_Src
+  nameWithType: CspDirectivesBuilder.Worker_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Worker_Src
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
+    id: Worker_Src
+    path: ../CspDirectivesBuilder.cs
+    startLine: 85
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nBuilder for Worker Src\n"
+  example: []
+  syntax:
+    content: public CspSourceBuilder Worker_Src { get; set; }
+    parameters: []
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+    content.vb: Public Property Worker_Src As CspSourceBuilder
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Worker_Src*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Manifest_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Manifest_Src
+  id: Manifest_Src
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder
+  langs:
+  - csharp
+  - vb
+  name: Manifest_Src
+  nameWithType: CspDirectivesBuilder.Manifest_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Manifest_Src
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
+    id: Manifest_Src
+    path: ../CspDirectivesBuilder.cs
+    startLine: 90
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nBuilder for Manifest Src\n"
+  example: []
+  syntax:
+    content: public CspSourceBuilder Manifest_Src { get; set; }
+    parameters: []
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+    content.vb: Public Property Manifest_Src As CspSourceBuilder
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Manifest_Src*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Prefetch_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Prefetch_Src
+  id: Prefetch_Src
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder
+  langs:
+  - csharp
+  - vb
+  name: Prefetch_Src
+  nameWithType: CspDirectivesBuilder.Prefetch_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Prefetch_Src
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
+    id: Prefetch_Src
+    path: ../CspDirectivesBuilder.cs
+    startLine: 95
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nBuilder for Prefetch Src\n"
+  example: []
+  syntax:
+    content: public CspSourceBuilder Prefetch_Src { get; set; }
+    parameters: []
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+    content.vb: Public Property Prefetch_Src As CspSourceBuilder
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Prefetch_Src*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Navigate_To
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Navigate_To
+  id: Navigate_To
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder
+  langs:
+  - csharp
+  - vb
+  name: Navigate_To
+  nameWithType: CspDirectivesBuilder.Navigate_To
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Navigate_To
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectivesBuilder.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
+    id: Navigate_To
+    path: ../CspDirectivesBuilder.cs
+    startLine: 100
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nBuilder for Navigate To\n"
+  example: []
+  syntax:
+    content: public CspSourceBuilder Navigate_To { get; set; }
+    parameters: []
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder
+    content.vb: Public Property Navigate_To As CspSourceBuilder
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Navigate_To*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader
   commentId: N:RWD.Toolbox.Ui.Middleware.CspHeader
   name: RWD.Toolbox.Ui.Middleware.CspHeader
   nameWithType: RWD.Toolbox.Ui.Middleware.CspHeader
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Default_Src*
   commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Default_Src
   name: Default_Src
@@ -483,7 +1085,49 @@ references:
   nameWithType: CspDirectivesBuilder.ReportUri
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.ReportUri
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Src*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Src
+  name: Frame_Src
+  nameWithType: CspDirectivesBuilder.Frame_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Form_Action*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Form_Action
+  name: Form_Action
+  nameWithType: CspDirectivesBuilder.Form_Action
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Form_Action
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Base_Uri*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Base_Uri
+  name: Base_Uri
+  nameWithType: CspDirectivesBuilder.Base_Uri
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Base_Uri
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Report_To*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Report_To
+  name: Report_To
+  nameWithType: CspDirectivesBuilder.Report_To
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Report_To
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Worker_Src*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Worker_Src
+  name: Worker_Src
+  nameWithType: CspDirectivesBuilder.Worker_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Worker_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Manifest_Src*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Manifest_Src
+  name: Manifest_Src
+  nameWithType: CspDirectivesBuilder.Manifest_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Manifest_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Prefetch_Src*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Prefetch_Src
+  name: Prefetch_Src
+  nameWithType: CspDirectivesBuilder.Prefetch_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Prefetch_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Navigate_To*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Navigate_To
+  name: Navigate_To
+  nameWithType: CspDirectivesBuilder.Navigate_To
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Navigate_To

@@ -5,16 +5,24 @@ items:
   id: CspDirectives
   parent: RWD.Toolbox.Ui.Middleware.CspHeader
   children:
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Base_Uri
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Connect_Src
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Default_Src
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Font_Src
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Form_Action
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Ancestors
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Src
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Img_Src
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Manifest_Src
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Media_Src
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Navigate_To
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Object_Src
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Prefetch_Src
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Report_To
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.ReportUri
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Script_Src
   - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Style_Src
+  - RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Worker_Src
   langs:
   - csharp
   - vb
@@ -26,7 +34,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: CspDirectives
     path: ../CspDirectives.cs
     startLine: 4
@@ -36,15 +44,22 @@ items:
   summary: "\nDirective Portions of CSP\n"
   example: []
   syntax:
-    content: 'public sealed class CspDirectives : object, ICspDirectives'
+    content: 'public sealed class CspDirectives : ICspDirectives'
     content.vb: >-
       Public NotInheritable Class CspDirectives
-          Inherits Object
           Implements ICspDirectives
   inheritance:
   - System.Object
   implements:
   - RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - sealed
@@ -68,7 +83,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Default_Src
     path: ../CspDirectives.cs
     startLine: 7
@@ -107,7 +122,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Script_Src
     path: ../CspDirectives.cs
     startLine: 10
@@ -146,7 +161,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Style_Src
     path: ../CspDirectives.cs
     startLine: 13
@@ -185,7 +200,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Img_Src
     path: ../CspDirectives.cs
     startLine: 16
@@ -224,7 +239,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Font_Src
     path: ../CspDirectives.cs
     startLine: 19
@@ -263,7 +278,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Media_Src
     path: ../CspDirectives.cs
     startLine: 22
@@ -302,7 +317,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Object_Src
     path: ../CspDirectives.cs
     startLine: 25
@@ -341,7 +356,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Connect_Src
     path: ../CspDirectives.cs
     startLine: 28
@@ -380,7 +395,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Frame_Ancestors
     path: ../CspDirectives.cs
     startLine: 31
@@ -419,7 +434,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: ReportUri
     path: ../CspDirectives.cs
     startLine: 34
@@ -443,18 +458,630 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Src
+  id: Frame_Src
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives
+  langs:
+  - csharp
+  - vb
+  name: Frame_Src
+  nameWithType: CspDirectives.Frame_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Src
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
+    id: Frame_Src
+    path: ../CspDirectives.cs
+    startLine: 37
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nFrames Src Directive\n"
+  remarks: "\nDefines valid sources for loading frames.In CSP Level 2 frame-src was deprecated in favor of the child-src directive. \nCSP Level 3, has undeprecated frame-src and it will continue to defer to child-src if not present.\n"
+  example: []
+  syntax:
+    content: public IDirective Frame_Src { get; set; }
+    parameters: []
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective
+    content.vb: Public Property Frame_Src As IDirective
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Src*
+  implements:
+  - RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Frame_Src
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Form_Action
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Form_Action
+  id: Form_Action
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives
+  langs:
+  - csharp
+  - vb
+  name: Form_Action
+  nameWithType: CspDirectives.Form_Action
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Form_Action
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
+    id: Form_Action
+    path: ../CspDirectives.cs
+    startLine: 40
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nForm Action Directive\n"
+  remarks: "\nCSP Level 2 - Defines valid sources that can be used as an HTML{form} action.\n"
+  example: []
+  syntax:
+    content: public IDirective Form_Action { get; set; }
+    parameters: []
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective
+    content.vb: Public Property Form_Action As IDirective
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Form_Action*
+  implements:
+  - RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Form_Action
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Base_Uri
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Base_Uri
+  id: Base_Uri
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives
+  langs:
+  - csharp
+  - vb
+  name: Base_Uri
+  nameWithType: CspDirectives.Base_Uri
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Base_Uri
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
+    id: Base_Uri
+    path: ../CspDirectives.cs
+    startLine: 43
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nBase Uri Directive\n"
+  remarks: "\nCSP Level 2 - Defines a set of allowed URLs which can be used in the src attribute of a HTML base tag.\n"
+  example: []
+  syntax:
+    content: public IDirective Base_Uri { get; set; }
+    parameters: []
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective
+    content.vb: Public Property Base_Uri As IDirective
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Base_Uri*
+  implements:
+  - RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Base_Uri
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Report_To
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Report_To
+  id: Report_To
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives
+  langs:
+  - csharp
+  - vb
+  name: Report_To
+  nameWithType: CspDirectives.Report_To
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Report_To
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
+    id: Report_To
+    path: ../CspDirectives.cs
+    startLine: 46
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nReport To Directive\n"
+  remarks: "\nCSP Level 3 - Defines a reporting group name defined by a Report-To HTTP response header. See the Reporting API for more info.\n"
+  example: []
+  syntax:
+    content: public IDirective Report_To { get; set; }
+    parameters: []
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective
+    content.vb: Public Property Report_To As IDirective
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Report_To*
+  implements:
+  - RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Report_To
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Worker_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Worker_Src
+  id: Worker_Src
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives
+  langs:
+  - csharp
+  - vb
+  name: Worker_Src
+  nameWithType: CspDirectives.Worker_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Worker_Src
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
+    id: Worker_Src
+    path: ../CspDirectives.cs
+    startLine: 49
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nWorker Src Directive\n"
+  remarks: "\nCSP Level 3 - Restricts the URLs which may be loaded as a Worker, SharedWorker or ServiceWorker.\n"
+  example: []
+  syntax:
+    content: public IDirective Worker_Src { get; set; }
+    parameters: []
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective
+    content.vb: Public Property Worker_Src As IDirective
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Worker_Src*
+  implements:
+  - RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Worker_Src
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Manifest_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Manifest_Src
+  id: Manifest_Src
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives
+  langs:
+  - csharp
+  - vb
+  name: Manifest_Src
+  nameWithType: CspDirectives.Manifest_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Manifest_Src
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
+    id: Manifest_Src
+    path: ../CspDirectives.cs
+    startLine: 52
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nManifest Src Directive\n"
+  remarks: "\nCSP Level 3 - Restricts the URLs that application manifests can be loaded.\n"
+  example: []
+  syntax:
+    content: public IDirective Manifest_Src { get; set; }
+    parameters: []
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective
+    content.vb: Public Property Manifest_Src As IDirective
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Manifest_Src*
+  implements:
+  - RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Manifest_Src
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Prefetch_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Prefetch_Src
+  id: Prefetch_Src
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives
+  langs:
+  - csharp
+  - vb
+  name: Prefetch_Src
+  nameWithType: CspDirectives.Prefetch_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Prefetch_Src
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
+    id: Prefetch_Src
+    path: ../CspDirectives.cs
+    startLine: 55
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nPrefetch Src Directive\n"
+  remarks: "\nCSP Level 3 - Defines valid sources for request prefetch and prerendering, for example via the link tag with rel=&quot;prefetch&quot; or rel=&quot;prerender&quot;:\n"
+  example: []
+  syntax:
+    content: public IDirective Prefetch_Src { get; set; }
+    parameters: []
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective
+    content.vb: Public Property Prefetch_Src As IDirective
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Prefetch_Src*
+  implements:
+  - RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Prefetch_Src
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Navigate_To
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Navigate_To
+  id: Navigate_To
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives
+  langs:
+  - csharp
+  - vb
+  name: Navigate_To
+  nameWithType: CspDirectives.Navigate_To
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Navigate_To
+  type: Property
+  source:
+    remote:
+      path: RWD.Toolbox.Ui.Middleware.CspHeader/CspDirectives.cs
+      branch: master
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
+    id: Navigate_To
+    path: ../CspDirectives.cs
+    startLine: 58
+  assemblies:
+  - RWD.Toolbox.Ui.Middleware.CspHeader
+  namespace: RWD.Toolbox.Ui.Middleware.CspHeader
+  summary: "\nNavigate To Directive\n"
+  remarks: "\nCSP Level 3 - Restricts the URLs that the document may navigate to by any means. \nFor example when a link is clicked, a form is submitted, or window.location is invoked. \nIf form-action is present then this directive is ignored for form submissions. Implementation Status\n"
+  example: []
+  syntax:
+    content: public IDirective Navigate_To { get; set; }
+    parameters: []
+    return:
+      type: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective
+    content.vb: Public Property Navigate_To As IDirective
+  overload: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Navigate_To*
+  implements:
+  - RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Navigate_To
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader
   commentId: N:RWD.Toolbox.Ui.Middleware.CspHeader
   name: RWD.Toolbox.Ui.Middleware.CspHeader
   nameWithType: RWD.Toolbox.Ui.Middleware.CspHeader
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
   commentId: T:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
   parent: RWD.Toolbox.Ui.Middleware.CspHeader
   name: ICspDirectives
   nameWithType: ICspDirectives
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Default_Src*
   commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Default_Src
   name: Default_Src
@@ -572,7 +1199,97 @@ references:
   nameWithType: ICspDirectives.ReportUri
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.ReportUri
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Src*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Src
+  name: Frame_Src
+  nameWithType: CspDirectives.Frame_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Frame_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Frame_Src
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
+  name: Frame_Src
+  nameWithType: ICspDirectives.Frame_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Frame_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Form_Action*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Form_Action
+  name: Form_Action
+  nameWithType: CspDirectives.Form_Action
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Form_Action
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Form_Action
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Form_Action
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
+  name: Form_Action
+  nameWithType: ICspDirectives.Form_Action
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Form_Action
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Base_Uri*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Base_Uri
+  name: Base_Uri
+  nameWithType: CspDirectives.Base_Uri
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Base_Uri
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Base_Uri
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Base_Uri
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
+  name: Base_Uri
+  nameWithType: ICspDirectives.Base_Uri
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Base_Uri
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Report_To*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Report_To
+  name: Report_To
+  nameWithType: CspDirectives.Report_To
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Report_To
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Report_To
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Report_To
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
+  name: Report_To
+  nameWithType: ICspDirectives.Report_To
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Report_To
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Worker_Src*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Worker_Src
+  name: Worker_Src
+  nameWithType: CspDirectives.Worker_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Worker_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Worker_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Worker_Src
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
+  name: Worker_Src
+  nameWithType: ICspDirectives.Worker_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Worker_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Manifest_Src*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Manifest_Src
+  name: Manifest_Src
+  nameWithType: CspDirectives.Manifest_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Manifest_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Manifest_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Manifest_Src
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
+  name: Manifest_Src
+  nameWithType: ICspDirectives.Manifest_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Manifest_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Prefetch_Src*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Prefetch_Src
+  name: Prefetch_Src
+  nameWithType: CspDirectives.Prefetch_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Prefetch_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Prefetch_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Prefetch_Src
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
+  name: Prefetch_Src
+  nameWithType: ICspDirectives.Prefetch_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Prefetch_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Navigate_To*
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Navigate_To
+  name: Navigate_To
+  nameWithType: CspDirectives.Navigate_To
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Navigate_To
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Navigate_To
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Navigate_To
+  parent: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
+  name: Navigate_To
+  nameWithType: ICspDirectives.Navigate_To
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Navigate_To

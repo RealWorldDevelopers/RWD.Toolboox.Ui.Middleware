@@ -15,6 +15,8 @@ RWD.Toolbox.Ui.Middleware.CspHeader
 + ### [Nuget Package](https://www.nuget.org/packages/RWD.Toolbox.Ui.Middleware.CspHeader/)
 
 ### Quick Start Notes
+* #### v2.0.1.0  
+	* Added Definitions for CSP Level 3
 * #### v2.0.0.0  
 	* Initial Release
 	* .Net 6

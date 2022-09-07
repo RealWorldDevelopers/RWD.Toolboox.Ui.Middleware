@@ -37,6 +37,30 @@
         <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.ReportUri">
             <inheritdoc/>
         </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Src">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Form_Action">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Base_Uri">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Report_To">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Worker_Src">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Manifest_Src">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Prefetch_Src">
+            <inheritdoc/>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Navigate_To">
+            <inheritdoc/>
+        </member>
         <member name="T:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder">
             <summary>
             CSP Directives Builder
@@ -90,6 +114,46 @@
         <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.ReportUri">
             <summary>
             Builder for Report Uri Src
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Src">
+            <summary>
+            Builder for Frame Src
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Form_Action">
+            <summary>
+            Builder for Form Action
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Base_Uri">
+            <summary>
+            Builder for Base Uri
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Report_To">
+            <summary>
+            Builder for Report To
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Worker_Src">
+            <summary>
+            Builder for Worker Src
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Manifest_Src">
+            <summary>
+            Builder for Manifest Src
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Prefetch_Src">
+            <summary>
+            Builder for Prefetch Src
+            </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Navigate_To">
+            <summary>
+            Builder for Navigate To
             </summary>
         </member>
         <member name="T:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware">
@@ -247,6 +311,73 @@
             <summary>
             Reporting Uri Src Directive
             </summary>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Frame_Src">
+            <summary>
+            Frames Src Directive
+            </summary>
+            <remarks>
+            Defines valid sources for loading frames.In CSP Level 2 frame-src was deprecated in favor of the child-src directive. 
+            CSP Level 3, has undeprecated frame-src and it will continue to defer to child-src if not present.
+            </remarks>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Form_Action">
+            <summary>
+            Form Action Directive
+            </summary>
+            <remarks>
+            CSP Level 2 - Defines valid sources that can be used as an HTML{form} action.
+            </remarks>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Base_Uri">
+            <summary>
+            Base Uri Directive
+            </summary>
+            <remarks>
+            CSP Level 2 - Defines a set of allowed URLs which can be used in the src attribute of a HTML base tag.
+            </remarks>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Report_To">
+            <summary>
+            Report To Directive
+            </summary>
+            <remarks>
+            CSP Level 3 - Defines a reporting group name defined by a Report-To HTTP response header. See the Reporting API for more info.
+            </remarks>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Worker_Src">
+            <summary>
+            Worker Src Directive
+            </summary>
+            <remarks>
+            CSP Level 3 - Restricts the URLs which may be loaded as a Worker, SharedWorker or ServiceWorker.
+            </remarks>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Manifest_Src">
+            <summary>
+            Manifest Src Directive
+            </summary>
+            <remarks>
+            CSP Level 3 - Restricts the URLs that application manifests can be loaded.
+            </remarks>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Prefetch_Src">
+            <summary>
+            Prefetch Src Directive
+            </summary>
+            <remarks>
+            CSP Level 3 - Defines valid sources for request prefetch and prerendering, for example via the link tag with rel="prefetch" or rel="prerender":
+            </remarks>
+        </member>
+        <member name="P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Navigate_To">
+            <summary>
+            Navigate To Directive
+            </summary>
+            <remarks>
+            CSP Level 3 - Restricts the URLs that the document may navigate to by any means. 
+            For example when a link is clicked, a form is submitted, or window.location is invoked. 
+            If form-action is present then this directive is ignored for form submissions. Implementation Status
+            </remarks>
         </member>
         <member name="T:RWD.Toolbox.Ui.Middleware.CspHeader.IDirective">
             <summary>

@@ -13,6 +13,19 @@ references:
   commentId: T:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives
   nameWithType: CspDirectives
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Base_Uri
+  name: Base_Uri
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Base_Uri
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Base_Uri
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Base_Uri
+  nameWithType: CspDirectives.Base_Uri
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Base_Uri*
+  name: Base_Uri
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Base_Uri_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Base_Uri
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Base_Uri
+  nameWithType: CspDirectives.Base_Uri
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Connect_Src
   name: Connect_Src
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Connect_Src
@@ -52,6 +65,19 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Font_Src
   nameWithType: CspDirectives.Font_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Form_Action
+  name: Form_Action
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Form_Action
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Form_Action
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Form_Action
+  nameWithType: CspDirectives.Form_Action
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Form_Action*
+  name: Form_Action
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Form_Action_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Form_Action
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Form_Action
+  nameWithType: CspDirectives.Form_Action
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Ancestors
   name: Frame_Ancestors
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Frame_Ancestors
@@ -65,6 +91,19 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Ancestors
   nameWithType: CspDirectives.Frame_Ancestors
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Src
+  name: Frame_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Frame_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Src
+  nameWithType: CspDirectives.Frame_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Src*
+  name: Frame_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Frame_Src_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Src
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Frame_Src
+  nameWithType: CspDirectives.Frame_Src
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Img_Src
   name: Img_Src
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Img_Src
@@ -78,6 +117,19 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Img_Src
   nameWithType: CspDirectives.Img_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Manifest_Src
+  name: Manifest_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Manifest_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Manifest_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Manifest_Src
+  nameWithType: CspDirectives.Manifest_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Manifest_Src*
+  name: Manifest_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Manifest_Src_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Manifest_Src
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Manifest_Src
+  nameWithType: CspDirectives.Manifest_Src
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Media_Src
   name: Media_Src
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Media_Src
@@ -91,6 +143,19 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Media_Src
   nameWithType: CspDirectives.Media_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Navigate_To
+  name: Navigate_To
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Navigate_To
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Navigate_To
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Navigate_To
+  nameWithType: CspDirectives.Navigate_To
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Navigate_To*
+  name: Navigate_To
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Navigate_To_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Navigate_To
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Navigate_To
+  nameWithType: CspDirectives.Navigate_To
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Object_Src
   name: Object_Src
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Object_Src
@@ -104,6 +169,32 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Object_Src
   nameWithType: CspDirectives.Object_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Prefetch_Src
+  name: Prefetch_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Prefetch_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Prefetch_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Prefetch_Src
+  nameWithType: CspDirectives.Prefetch_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Prefetch_Src*
+  name: Prefetch_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Prefetch_Src_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Prefetch_Src
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Prefetch_Src
+  nameWithType: CspDirectives.Prefetch_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Report_To
+  name: Report_To
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Report_To
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Report_To
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Report_To
+  nameWithType: CspDirectives.Report_To
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Report_To*
+  name: Report_To
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Report_To_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Report_To
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Report_To
+  nameWithType: CspDirectives.Report_To
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.ReportUri
   name: ReportUri
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_ReportUri
@@ -143,12 +234,38 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Style_Src
   nameWithType: CspDirectives.Style_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Worker_Src
+  name: Worker_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Worker_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Worker_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Worker_Src
+  nameWithType: CspDirectives.Worker_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Worker_Src*
+  name: Worker_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectives_Worker_Src_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Worker_Src
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.Worker_Src
+  nameWithType: CspDirectives.Worker_Src
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder
   name: CspDirectivesBuilder
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html
   commentId: T:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder
   nameWithType: CspDirectivesBuilder
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Base_Uri
+  name: Base_Uri
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Base_Uri
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Base_Uri
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Base_Uri
+  nameWithType: CspDirectivesBuilder.Base_Uri
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Base_Uri*
+  name: Base_Uri
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Base_Uri_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Base_Uri
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Base_Uri
+  nameWithType: CspDirectivesBuilder.Base_Uri
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Connect_Src
   name: Connect_Src
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Connect_Src
@@ -188,6 +305,19 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Fonts_Src
   nameWithType: CspDirectivesBuilder.Fonts_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Form_Action
+  name: Form_Action
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Form_Action
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Form_Action
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Form_Action
+  nameWithType: CspDirectivesBuilder.Form_Action
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Form_Action*
+  name: Form_Action
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Form_Action_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Form_Action
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Form_Action
+  nameWithType: CspDirectivesBuilder.Form_Action
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Ancestors
   name: Frame_Ancestors
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Frame_Ancestors
@@ -201,6 +331,19 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Ancestors
   nameWithType: CspDirectivesBuilder.Frame_Ancestors
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Src
+  name: Frame_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Frame_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Src
+  nameWithType: CspDirectivesBuilder.Frame_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Src*
+  name: Frame_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Frame_Src_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Src
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Frame_Src
+  nameWithType: CspDirectivesBuilder.Frame_Src
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Imgs_Src
   name: Imgs_Src
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Imgs_Src
@@ -214,6 +357,19 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Imgs_Src
   nameWithType: CspDirectivesBuilder.Imgs_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Manifest_Src
+  name: Manifest_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Manifest_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Manifest_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Manifest_Src
+  nameWithType: CspDirectivesBuilder.Manifest_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Manifest_Src*
+  name: Manifest_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Manifest_Src_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Manifest_Src
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Manifest_Src
+  nameWithType: CspDirectivesBuilder.Manifest_Src
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Medias_Src
   name: Medias_Src
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Medias_Src
@@ -227,6 +383,19 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Medias_Src
   nameWithType: CspDirectivesBuilder.Medias_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Navigate_To
+  name: Navigate_To
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Navigate_To
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Navigate_To
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Navigate_To
+  nameWithType: CspDirectivesBuilder.Navigate_To
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Navigate_To*
+  name: Navigate_To
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Navigate_To_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Navigate_To
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Navigate_To
+  nameWithType: CspDirectivesBuilder.Navigate_To
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Object_Src
   name: Object_Src
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Object_Src
@@ -240,6 +409,32 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Object_Src
   nameWithType: CspDirectivesBuilder.Object_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Prefetch_Src
+  name: Prefetch_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Prefetch_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Prefetch_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Prefetch_Src
+  nameWithType: CspDirectivesBuilder.Prefetch_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Prefetch_Src*
+  name: Prefetch_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Prefetch_Src_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Prefetch_Src
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Prefetch_Src
+  nameWithType: CspDirectivesBuilder.Prefetch_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Report_To
+  name: Report_To
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Report_To
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Report_To
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Report_To
+  nameWithType: CspDirectivesBuilder.Report_To
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Report_To*
+  name: Report_To
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Report_To_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Report_To
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Report_To
+  nameWithType: CspDirectivesBuilder.Report_To
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.ReportUri
   name: ReportUri
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_ReportUri
@@ -279,6 +474,19 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Styles_Src
   nameWithType: CspDirectivesBuilder.Styles_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Worker_Src
+  name: Worker_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Worker_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Worker_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Worker_Src
+  nameWithType: CspDirectivesBuilder.Worker_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Worker_Src*
+  name: Worker_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder_Worker_Src_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Worker_Src
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.Worker_Src
+  nameWithType: CspDirectivesBuilder.Worker_Src
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware
   name: CspMiddleware
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.html
@@ -317,13 +525,13 @@ references:
   commentId: T:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions
   nameWithType: CspMiddlewareExtensions
-- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,Action{RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder})
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder})
   name: UseCspMiddleware(IApplicationBuilder, Action<CspDirectivesBuilder>)
-  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspMiddlewareExtensions_UseCspMiddleware_Microsoft_AspNetCore_Builder_IApplicationBuilder_Action_RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder__
-  commentId: M:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,Action{RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder})
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.html#RWD_Toolbox_Ui_Middleware_CspHeader_CspMiddlewareExtensions_UseCspMiddleware_Microsoft_AspNetCore_Builder_IApplicationBuilder_System_Action_RWD_Toolbox_Ui_Middleware_CspHeader_CspDirectivesBuilder__
+  commentId: M:RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder})
   name.vb: UseCspMiddleware(IApplicationBuilder, Action(Of CspDirectivesBuilder))
-  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder, Action<RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder>)
-  fullName.vb: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder, Action(Of RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder))
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder>)
+  fullName.vb: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action(Of RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder))
   nameWithType: CspMiddlewareExtensions.UseCspMiddleware(IApplicationBuilder, Action<CspDirectivesBuilder>)
   nameWithType.vb: CspMiddlewareExtensions.UseCspMiddleware(IApplicationBuilder, Action(Of CspDirectivesBuilder))
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.UseCspMiddleware*
@@ -481,6 +689,19 @@ references:
   commentId: T:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives
   nameWithType: ICspDirectives
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Base_Uri
+  name: Base_Uri
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Base_Uri
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Base_Uri
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Base_Uri
+  nameWithType: ICspDirectives.Base_Uri
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Base_Uri*
+  name: Base_Uri
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Base_Uri_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Base_Uri
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Base_Uri
+  nameWithType: ICspDirectives.Base_Uri
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Connect_Src
   name: Connect_Src
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Connect_Src
@@ -520,6 +741,19 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Font_Src
   nameWithType: ICspDirectives.Font_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Form_Action
+  name: Form_Action
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Form_Action
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Form_Action
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Form_Action
+  nameWithType: ICspDirectives.Form_Action
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Form_Action*
+  name: Form_Action
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Form_Action_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Form_Action
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Form_Action
+  nameWithType: ICspDirectives.Form_Action
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Frame_Ancestors
   name: Frame_Ancestors
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Frame_Ancestors
@@ -533,6 +767,19 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Frame_Ancestors
   nameWithType: ICspDirectives.Frame_Ancestors
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Frame_Src
+  name: Frame_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Frame_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Frame_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Frame_Src
+  nameWithType: ICspDirectives.Frame_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Frame_Src*
+  name: Frame_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Frame_Src_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Frame_Src
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Frame_Src
+  nameWithType: ICspDirectives.Frame_Src
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Img_Src
   name: Img_Src
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Img_Src
@@ -546,6 +793,19 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Img_Src
   nameWithType: ICspDirectives.Img_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Manifest_Src
+  name: Manifest_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Manifest_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Manifest_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Manifest_Src
+  nameWithType: ICspDirectives.Manifest_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Manifest_Src*
+  name: Manifest_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Manifest_Src_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Manifest_Src
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Manifest_Src
+  nameWithType: ICspDirectives.Manifest_Src
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Media_Src
   name: Media_Src
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Media_Src
@@ -559,6 +819,19 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Media_Src
   nameWithType: ICspDirectives.Media_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Navigate_To
+  name: Navigate_To
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Navigate_To
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Navigate_To
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Navigate_To
+  nameWithType: ICspDirectives.Navigate_To
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Navigate_To*
+  name: Navigate_To
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Navigate_To_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Navigate_To
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Navigate_To
+  nameWithType: ICspDirectives.Navigate_To
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Object_Src
   name: Object_Src
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Object_Src
@@ -572,6 +845,32 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Object_Src
   nameWithType: ICspDirectives.Object_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Prefetch_Src
+  name: Prefetch_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Prefetch_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Prefetch_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Prefetch_Src
+  nameWithType: ICspDirectives.Prefetch_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Prefetch_Src*
+  name: Prefetch_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Prefetch_Src_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Prefetch_Src
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Prefetch_Src
+  nameWithType: ICspDirectives.Prefetch_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Report_To
+  name: Report_To
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Report_To
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Report_To
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Report_To
+  nameWithType: ICspDirectives.Report_To
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Report_To*
+  name: Report_To
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Report_To_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Report_To
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Report_To
+  nameWithType: ICspDirectives.Report_To
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.ReportUri
   name: ReportUri
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_ReportUri
@@ -611,6 +910,19 @@ references:
   isSpec: "True"
   fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Style_Src
   nameWithType: ICspDirectives.Style_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Worker_Src
+  name: Worker_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Worker_Src
+  commentId: P:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Worker_Src
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Worker_Src
+  nameWithType: ICspDirectives.Worker_Src
+- uid: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Worker_Src*
+  name: Worker_Src
+  href: api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html#RWD_Toolbox_Ui_Middleware_CspHeader_ICspDirectives_Worker_Src_
+  commentId: Overload:RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Worker_Src
+  isSpec: "True"
+  fullName: RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.Worker_Src
+  nameWithType: ICspDirectives.Worker_Src
 - uid: RWD.Toolbox.Ui.Middleware.CspHeader.IDirective
   name: IDirective
   href: api/RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.html

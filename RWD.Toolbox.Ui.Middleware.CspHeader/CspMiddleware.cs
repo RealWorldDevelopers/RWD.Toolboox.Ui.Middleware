@@ -55,6 +55,17 @@ namespace RWD.Toolbox.Ui.Middleware.CspHeader
             value += GetDirective(_directives.Object_Src.Header, _directives.Object_Src.Sources);
             value += GetDirective(_directives.Connect_Src.Header, _directives.Connect_Src.Sources);
             value += GetDirective(_directives.Frame_Ancestors.Header, _directives.Frame_Ancestors.Sources);
+
+            value += GetDirective(_directives.Frame_Src.Header, _directives.Frame_Src.Sources);
+            value += GetDirective(_directives.Form_Action.Header, _directives.Form_Action.Sources);
+            value += GetDirective(_directives.Base_Uri.Header, _directives.Base_Uri.Sources);
+            value += GetDirective(_directives.Report_To.Header, _directives.Report_To.Sources);
+            value += GetDirective(_directives.Worker_Src.Header, _directives.Worker_Src.Sources);
+            value += GetDirective(_directives.Manifest_Src.Header, _directives.Manifest_Src.Sources);
+            value += GetDirective(_directives.Prefetch_Src.Header, _directives.Prefetch_Src.Sources);
+            value += GetDirective(_directives.Navigate_To.Header, _directives.Navigate_To.Sources);
+
+
             if (!string.IsNullOrWhiteSpace(_directives.ReportUri))
                 value += $"{REPORT_URI_HEADER} {_directives.ReportUri}; ";
 

@@ -18,7 +18,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersPolicy.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: SecurityHeadersPolicy
     path: ../SecurityHeadersPolicy.cs
     startLine: 8
@@ -28,12 +28,18 @@ items:
   summary: "\nDefines the policy for customizing security headers for a request.\n"
   example: []
   syntax:
-    content: 'public class SecurityHeadersPolicy : object'
-    content.vb: >-
-      Public Class SecurityHeadersPolicy
-          Inherits Object
+    content: public class SecurityHeadersPolicy
+    content.vb: Public Class SecurityHeadersPolicy
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -55,7 +61,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersPolicy.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: SetHeaders
     path: ../SecurityHeadersPolicy.cs
     startLine: 13
@@ -68,7 +74,7 @@ items:
     content: public IDictionary<string, string> SetHeaders { get; }
     parameters: []
     return:
-      type: IDictionary{System.String,System.String}
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
     content.vb: Public ReadOnly Property SetHeaders As IDictionary(Of String, String)
   overload: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders*
   modifiers.csharp:
@@ -92,7 +98,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersPolicy.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: RemoveHeaders
     path: ../SecurityHeadersPolicy.cs
     startLine: 18
@@ -105,7 +111,7 @@ items:
     content: public ISet<string> RemoveHeaders { get; }
     parameters: []
     return:
-      type: ISet{System.String}
+      type: System.Collections.Generic.ISet{System.String}
     content.vb: Public ReadOnly Property RemoveHeaders As ISet(Of String)
   overload: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders*
   modifiers.csharp:
@@ -120,25 +126,318 @@ references:
   name: RWD.Toolbox.Ui.Middleware.SecurityHeaders
   nameWithType: RWD.Toolbox.Ui.Middleware.SecurityHeaders
   fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders*
   commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
   name: SetHeaders
   nameWithType: SecurityHeadersPolicy.SetHeaders
   fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.SetHeaders
-- uid: IDictionary{System.String,System.String}
-  commentId: '!:IDictionary{System.String,System.String}'
-  definition: IDictionary`2
+- uid: System.Collections.Generic.IDictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
   name: IDictionary<String, String>
   nameWithType: IDictionary<String, String>
-  fullName: IDictionary<System.String, System.String>
+  fullName: System.Collections.Generic.IDictionary<System.String, System.String>
   nameWithType.vb: IDictionary(Of String, String)
-  fullName.vb: IDictionary(Of System.String, System.String)
+  fullName.vb: System.Collections.Generic.IDictionary(Of System.String, System.String)
   name.vb: IDictionary(Of String, String)
   spec.csharp:
-  - uid: IDictionary`2
+  - uid: System.Collections.Generic.IDictionary`2
     name: IDictionary
     nameWithType: IDictionary
-    fullName: IDictionary
+    fullName: System.Collections.Generic.IDictionary
     isExternal: true
   - name: <
     nameWithType: <
@@ -160,10 +459,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: IDictionary`2
+  - uid: System.Collections.Generic.IDictionary`2
     name: IDictionary
     nameWithType: IDictionary
-    fullName: IDictionary
+    fullName: System.Collections.Generic.IDictionary
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -184,76 +483,83 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: IDictionary`2
-  commentId: '!:IDictionary`2'
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
   isExternal: true
-  name: IDictionary<, >
-  nameWithType: IDictionary<, >
-  fullName: IDictionary<, >
-  nameWithType.vb: IDictionary(Of , )
-  fullName.vb: IDictionary(Of , )
-  name.vb: IDictionary(Of , )
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
   spec.csharp:
-  - uid: IDictionary`2
+  - uid: System.Collections.Generic.IDictionary`2
     name: IDictionary
     nameWithType: IDictionary
-    fullName: IDictionary
+    fullName: System.Collections.Generic.IDictionary
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: IDictionary`2
+  - uid: System.Collections.Generic.IDictionary`2
     name: IDictionary
     nameWithType: IDictionary
-    fullName: IDictionary
+    fullName: System.Collections.Generic.IDictionary
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
 - uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders*
   commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
   name: RemoveHeaders
   nameWithType: SecurityHeadersPolicy.RemoveHeaders
   fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.RemoveHeaders
-- uid: ISet{System.String}
-  commentId: '!:ISet{System.String}'
-  definition: ISet`1
+- uid: System.Collections.Generic.ISet{System.String}
+  commentId: T:System.Collections.Generic.ISet{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ISet`1
   name: ISet<String>
   nameWithType: ISet<String>
-  fullName: ISet<System.String>
+  fullName: System.Collections.Generic.ISet<System.String>
   nameWithType.vb: ISet(Of String)
-  fullName.vb: ISet(Of System.String)
+  fullName.vb: System.Collections.Generic.ISet(Of System.String)
   name.vb: ISet(Of String)
   spec.csharp:
-  - uid: ISet`1
+  - uid: System.Collections.Generic.ISet`1
     name: ISet
     nameWithType: ISet
-    fullName: ISet
+    fullName: System.Collections.Generic.ISet
     isExternal: true
   - name: <
     nameWithType: <
@@ -267,10 +573,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: ISet`1
+  - uid: System.Collections.Generic.ISet`1
     name: ISet
     nameWithType: ISet
-    fullName: ISet
+    fullName: System.Collections.Generic.ISet
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -283,42 +589,42 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: ISet`1
-  commentId: '!:ISet`1'
+- uid: System.Collections.Generic.ISet`1
+  commentId: T:System.Collections.Generic.ISet`1
   isExternal: true
-  name: ISet<>
-  nameWithType: ISet<>
-  fullName: ISet<>
-  nameWithType.vb: ISet(Of )
-  fullName.vb: ISet(Of )
-  name.vb: ISet(Of )
+  name: ISet<T>
+  nameWithType: ISet<T>
+  fullName: System.Collections.Generic.ISet<T>
+  nameWithType.vb: ISet(Of T)
+  fullName.vb: System.Collections.Generic.ISet(Of T)
+  name.vb: ISet(Of T)
   spec.csharp:
-  - uid: ISet`1
+  - uid: System.Collections.Generic.ISet`1
     name: ISet
     nameWithType: ISet
-    fullName: ISet
+    fullName: System.Collections.Generic.ISet
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: ISet`1
+  - uid: System.Collections.Generic.ISet`1
     name: ISet
     nameWithType: ISet
-    fullName: ISet
+    fullName: System.Collections.Generic.ISet
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )

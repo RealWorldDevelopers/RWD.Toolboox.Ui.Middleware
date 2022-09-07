@@ -38,7 +38,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: SecurityHeadersBuilder
     path: ../SecurityHeadersBuilder.cs
     startLine: 7
@@ -48,12 +48,18 @@ items:
   summary: "\nExposes methods to build a policy.\n"
   example: []
   syntax:
-    content: 'public class SecurityHeadersBuilder : object'
-    content.vb: >-
-      Public Class SecurityHeadersBuilder
-          Inherits Object
+    content: public class SecurityHeadersBuilder
+    content.vb: Public Class SecurityHeadersBuilder
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -75,7 +81,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddDefaultSecurePolicy
     path: ../SecurityHeadersBuilder.cs
     startLine: 14
@@ -109,7 +115,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddFrameOptionsDeny
     path: ../SecurityHeadersBuilder.cs
     startLine: 31
@@ -143,7 +149,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddFrameOptionsSameOrigin
     path: ../SecurityHeadersBuilder.cs
     startLine: 41
@@ -177,7 +183,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddFrameOptionsSameOrigin
     path: ../SecurityHeadersBuilder.cs
     startLine: 52
@@ -215,7 +221,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddReferrerPolicyNoReferrer
     path: ../SecurityHeadersBuilder.cs
     startLine: 67
@@ -249,7 +255,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddReferrerPolicyNoReferrerWhenDowngrade
     path: ../SecurityHeadersBuilder.cs
     startLine: 79
@@ -283,7 +289,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddReferrerPolicyOrigin
     path: ../SecurityHeadersBuilder.cs
     startLine: 90
@@ -317,7 +323,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddReferrerPolicyOriginWhenCrossOrigin
     path: ../SecurityHeadersBuilder.cs
     startLine: 100
@@ -351,7 +357,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddReferrerPolicySameOrigin
     path: ../SecurityHeadersBuilder.cs
     startLine: 110
@@ -385,7 +391,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddReferrerPolicyStrictOrigin
     path: ../SecurityHeadersBuilder.cs
     startLine: 121
@@ -419,7 +425,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddReferrerPolicyStrictOriginWhenCrossOrigin
     path: ../SecurityHeadersBuilder.cs
     startLine: 132
@@ -453,7 +459,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddReferrerPolicyUnsafeUrl
     path: ../SecurityHeadersBuilder.cs
     startLine: 144
@@ -487,7 +493,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddXssProtectionEnabled
     path: ../SecurityHeadersBuilder.cs
     startLine: 159
@@ -521,7 +527,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddXssProtectionDisabled
     path: ../SecurityHeadersBuilder.cs
     startLine: 169
@@ -555,7 +561,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddXssProtectionBlock
     path: ../SecurityHeadersBuilder.cs
     startLine: 179
@@ -589,7 +595,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddXssProtectionReport
     path: ../SecurityHeadersBuilder.cs
     startLine: 189
@@ -626,7 +632,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddContentTypeOptionsNoSniff
     path: ../SecurityHeadersBuilder.cs
     startLine: 202
@@ -660,7 +666,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddStrictTransportSecurity
     path: ../SecurityHeadersBuilder.cs
     startLine: 211
@@ -694,7 +700,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: RemoveServerHeader
     path: ../SecurityHeadersBuilder.cs
     startLine: 220
@@ -728,7 +734,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: AddCustomHeader
     path: ../SecurityHeadersBuilder.cs
     startLine: 232
@@ -770,7 +776,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: RemoveHeader
     path: ../SecurityHeadersBuilder.cs
     startLine: 243
@@ -809,7 +815,7 @@ items:
     remote:
       path: RWD.Toolbox.Ui.Middleware.SecurityHeaders/SecurityHeadersBuilder.cs
       branch: master
-      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware
+      repo: https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware.git
     id: Build
     path: ../SecurityHeadersBuilder.cs
     startLine: 254
@@ -835,6 +841,298 @@ references:
   name: RWD.Toolbox.Ui.Middleware.SecurityHeaders
   nameWithType: RWD.Toolbox.Ui.Middleware.SecurityHeaders
   fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddDefaultSecurePolicy*
   commentId: Overload:RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddDefaultSecurePolicy
   name: AddDefaultSecurePolicy
@@ -857,6 +1155,8 @@ references:
   nameWithType: SecurityHeadersBuilder.AddFrameOptionsSameOrigin
   fullName: RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.AddFrameOptionsSameOrigin
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
