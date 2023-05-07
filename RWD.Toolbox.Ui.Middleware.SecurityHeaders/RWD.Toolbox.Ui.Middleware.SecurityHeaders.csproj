@@ -23,7 +23,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>E:\Source\RWD.Toolbox.Ui.Middleware\RWD.Toolbox.Ui.Middleware.SecurityHeaders\RWD.Toolbox.Ui.Middleware.SecurityHeaders.xml</DocumentationFile>
+    <DocumentationFile></DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
