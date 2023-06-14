@@ -4,15 +4,15 @@
     <TargetFramework>net6.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>A Free .NET Library to assist with writing a HTML Content Security Policy Header.</Description>
-    <Copyright>RealWorldDevelopers 2022</Copyright>
+    <Copyright>RealWorldDevelopers 2023</Copyright>
     <PackageProjectUrl>http://www.realworlddevelopers.com</PackageProjectUrl>
     <PackageIconUrl></PackageIconUrl>
     <RepositoryUrl>https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware</RepositoryUrl>
-    <RepositoryType>GIT</RepositoryType>
+    <RepositoryType>git</RepositoryType>
     <PackageTags>CSP Content Security Policy Middleware RealWorldDevelopers .NET Core</PackageTags>
-    <PackageReleaseNotes>Added Definitions for CSP Level 3</PackageReleaseNotes>
+    <PackageReleaseNotes>Minor Bug Fixes and Improvments</PackageReleaseNotes>
     <PackageLicenseFile>eula.md</PackageLicenseFile>
-    <Version>2.0.1</Version>
+    <Version>2.0.2</Version>
     <PackageIcon>RWDevs-NuGet.jpg</PackageIcon>
     <Authors>RealWorldDevelopers</Authors>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -28,6 +28,9 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor" Version="2.2.0" />
+    <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -43,13 +46,6 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="docfx_project\api\" />
-    <Folder Include="docfx_project\articles\" />
-    <Folder Include="docfx_project\_site\" />
-    <Folder Include="docfx_project\_site\api\" />
   </ItemGroup>
 
 </Project>

@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Itmes", "Solution 
 		RWDevs-NuGet.jpg = RWDevs-NuGet.jpg
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RWD.Toolbox.Ui.Middleware.PermissionsPolicy", "RWD.Toolbox.Ui.Middleware.PermissionsPolicy\RWD.Toolbox.Ui.Middleware.PermissionsPolicy.csproj", "{6324B851-1D5F-425F-B8CD-AE6E10C800D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RWD.Toolbox.Ui.Middleware.Demo", "RWD.Toolbox.Ui.Middleware.Demo\RWD.Toolbox.Ui.Middleware.Demo.csproj", "{E1C94482-1991-47A1-8ED0-FBDA44B214C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +34,13 @@ Global
 		{A053D741-662F-4798-9207-475E32ED7508}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A053D741-662F-4798-9207-475E32ED7508}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A053D741-662F-4798-9207-475E32ED7508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6324B851-1D5F-425F-B8CD-AE6E10C800D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6324B851-1D5F-425F-B8CD-AE6E10C800D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6324B851-1D5F-425F-B8CD-AE6E10C800D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6324B851-1D5F-425F-B8CD-AE6E10C800D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C94482-1991-47A1-8ED0-FBDA44B214C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C94482-1991-47A1-8ED0-FBDA44B214C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C94482-1991-47A1-8ED0-FBDA44B214C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
