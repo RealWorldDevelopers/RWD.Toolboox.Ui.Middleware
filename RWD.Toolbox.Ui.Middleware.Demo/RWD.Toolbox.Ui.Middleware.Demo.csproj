@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RWD.Toolbox.Ui.Middleware.CspHeader\RWD.Toolbox.Ui.Middleware.CspHeader.csproj" />
+    <ProjectReference Include="..\RWD.Toolbox.Ui.Middleware.PermissionsPolicy\RWD.Toolbox.Ui.Middleware.PermissionsPolicy.csproj" />
+    <ProjectReference Include="..\RWD.Toolbox.Ui.Middleware.SecurityHeaders\RWD.Toolbox.Ui.Middleware.SecurityHeaders.csproj" />
+  </ItemGroup>
+
+</Project>

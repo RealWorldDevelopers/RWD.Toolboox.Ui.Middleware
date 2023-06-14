@@ -5,14 +5,14 @@
     <RepositoryUrl>https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware</RepositoryUrl>
     <PackageLicenseFile>eula.md</PackageLicenseFile>
     <Description>A Free .NET Library to assist with writing a HTML Security Headers.</Description>
-    <Copyright>RealWorldDevelopers 2022</Copyright>
+    <Copyright>RealWorldDevelopers 2023</Copyright>
     <PackageProjectUrl>http://www.realworlddevelopers.com</PackageProjectUrl>
     <PackageIconUrl></PackageIconUrl>
-    <RepositoryType>GIT</RepositoryType>
+    <RepositoryType>git</RepositoryType>
     <PackageTags>Security Headers Middleware RealWorldDevelopers .NET Core</PackageTags>
-    <PackageReleaseNotes>Update to .NET 6.0</PackageReleaseNotes>
+    <PackageReleaseNotes>Minor Bug Fixes and Improvements</PackageReleaseNotes>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
     <PackageIcon>RWDevs-NuGet.jpg</PackageIcon>
     <Authors>RealWorldDevelopers</Authors>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -43,12 +43,6 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="docfx_project\api\" />
-    <Folder Include="docfx_project\articles\" />
-    <Folder Include="docfx_project\_site\" />
   </ItemGroup>
 
 </Project>
