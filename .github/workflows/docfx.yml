@@ -23,13 +23,13 @@ jobs:
       - name: Install dependencies
         run: dotnet restore
       - name: DocFX Build
-        working-directory: docfx_project
+        working-directory: RWD.Toolbox.Ui.Middleware.Demo/docfx_project
         run: docfx docfx.json
         continue-on-error: false
       - name: Publish
-        if: github.event_name == 'push'
+        # if: github.event_name == 'push'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docfx_project\_site
+          publish_dir: ./_site
           force_orphan: true
