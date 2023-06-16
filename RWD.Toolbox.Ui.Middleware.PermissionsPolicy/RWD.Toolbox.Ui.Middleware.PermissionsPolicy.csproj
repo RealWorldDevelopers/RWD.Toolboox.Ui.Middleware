@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>2.0.0</Version>
+    <Version>2.0.2</Version>
     <Authors>RealWorldDevelopers</Authors>
     <Description>A Free .NET Library to assist with writing a HTML Permissions Policy Header.</Description>
     <Copyright>RealWorldDevelopers 2023</Copyright>

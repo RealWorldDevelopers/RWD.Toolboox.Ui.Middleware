@@ -12,7 +12,7 @@
     <PackageTags>Security Headers Middleware RealWorldDevelopers .NET Core</PackageTags>
     <PackageReleaseNotes>Minor Bug Fixes and Improvements</PackageReleaseNotes>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>2.0.1</Version>
+    <Version>2.0.2</Version>
     <PackageIcon>RWDevs-NuGet.jpg</PackageIcon>
     <Authors>RealWorldDevelopers</Authors>
     <PackageReadmeFile>README.md</PackageReadmeFile>
