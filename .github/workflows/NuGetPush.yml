@@ -26,8 +26,6 @@ jobs:
     - name: Setup NuGet
       uses: NuGet/setup-nuget@v1.0.5
 
-    
-
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
