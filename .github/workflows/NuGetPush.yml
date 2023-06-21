@@ -30,7 +30,7 @@ jobs:
         dotnet-version: ${{ env.DOTNET_VERSION }}   
         
     - name: Add nuget.org as nuget package source
-      run: dotnet nuget add source https://api.nuget.org/v3/index.json --name nuget.org
+      run: dotnet nuget add source https://api.nuget.org/v3/index.json --name nuget.org.source
 
     - name: restore
       run: dotnet restore RWD.Toolbox.Ui.Middleware.sln
