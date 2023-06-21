@@ -1,0 +1,626 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/RWD.Toolbox.Ui.Middleware/RWD.Toolbox.Ui.Middleware/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectives.html",
+          "hash": "VaSOlp7fj7dg5dOCynrdnTezDlca/B09Z/M4lz9jw+k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspDirectivesBuilder.html",
+          "hash": "AT1V1OraNDGuVoYqI069JOAe/2Y1l0cR2J2xovfw9Fs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddleware.html",
+          "hash": "luFRIypTJRFVsmft4uybXk0fti3Dt0CE/9OlWyWufZ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspMiddlewareExtensions.html",
+          "hash": "mHRlJDXmrM1Brm9ouaKvi4uPpwS0OZThEyXMlMWbvxo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.CspSourceBuilder.html",
+          "hash": "tAPd4AH5Fv96GqddpCAs3hBH94lS5QMm3lD8UiJylCo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.Directive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.Directive.html",
+          "hash": "1wgUxJ1Y+ixHuRzbOrafI3rAlGRHZwTnf4jktSrxdVU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.ICspDirectives.html",
+          "hash": "QV9hL9eQ4VnPR/wK74WUbG8dqyoY23D7CgK96IBCkeM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.IDirective.html",
+          "hash": "jDMHudTsqKSEEuhxl46ak/+rgN2UlS3OYBn4G6ASlxE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.TagHelpers.CSPHashType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.TagHelpers.CSPHashType.html",
+          "hash": "e0EfFHmRZSHsLiPXXF9xVn2kMi3y5OUOxpBuTHeDx5c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.TagHelpers.HashTagHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.TagHelpers.HashTagHelper.html",
+          "hash": "l6O3jNC5chKoecuCysjWy18DnpP0svBCb5em63yjP38="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.TagHelpers.HttpContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.TagHelpers.HttpContextExtensions.html",
+          "hash": "Pkrm0oJbDOdMhTME82i3ObXPTgDXN5pahmGgg9w5Dr4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.TagHelpers.NonceTagHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.TagHelpers.NonceTagHelper.html",
+          "hash": "aKddqwj7HPT5lNLyumqihcDhgcLUcx+NV3MUwStxaas="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.TagHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.TagHelpers.html",
+          "hash": "1u20WPSWY7UY6PGymbnxBkN7wQv5alSl3CS4oTan3EY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.CspHeader.html",
+          "hash": "3XOpaT0Xa8YLKErTtrUYumshh+9GsOfuOSMKuHQo9z8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.Directive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.Directive.html",
+          "hash": "Rz2v6hQGUO+gvkjMHoD3znpW+TXKXLWwQPQ8jemZLr8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.IDirective.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.IDirective.html",
+          "hash": "nd/ETt6zKsTWQRNbW1n5ZxRZTAGZl84OTxR/FTm6c9I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.IPermissionsPolicyDirectives.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.IPermissionsPolicyDirectives.html",
+          "hash": "84lqo5eN4oPIFFe1laP0W9USto6wez6NSkd6yzC5pkY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.PermissionsPolicyDirectives.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.PermissionsPolicyDirectives.html",
+          "hash": "s9pKo1mvNggmRVZJT23PQox9XjAkGIkHA/OkWgdsZ0Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.PermissionsPolicyDirectivesBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.PermissionsPolicyDirectivesBuilder.html",
+          "hash": "FCFCxkMS30OP/fpNSxQUsVKN4QgDefAqUwc8I1pBV8w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.PermissionsPolicyMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.PermissionsPolicyMiddleware.html",
+          "hash": "1aaMtjNsNR2XmdU9OrhetFWpOyl3aBa6NfZjVAaYnns="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.PermissionsPolicyMiddlewareExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.PermissionsPolicyMiddlewareExtensions.html",
+          "hash": "p5SUbVBwlEcrslf/IcS0eFfnPvPTPa7fHw2itxyYlM0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.PermissionsPolicySourceBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.PermissionsPolicySourceBuilder.html",
+          "hash": "hDQ6Atog6rrL5wxD64xa8pvnpAWm1QnIgp+pfcndoes="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.PermissionsPolicy.html",
+          "hash": "o/wolpeBVedGXp5uhXBoHU7R4WrxJUcsn7QVGeXGBbk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ClearSiteDataConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ClearSiteDataConstants.html",
+          "hash": "2iPsvAtgR3o1QxtvjsrziCbORQstfSyWmCTRfp6KOCo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ContentTypeOptionsConstants.html",
+          "hash": "EhmpubKfd0CIpnAz9jIUZorzWR9ETKQ+zvAt430PAuI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.CrossOriginEmbedderPolicyConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.CrossOriginEmbedderPolicyConstants.html",
+          "hash": "F5jLmsqy1ifujlsq9HcR98pnTSkJw4v89ZjfcuEsyS4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.CrossOriginOpenerPolicyConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.CrossOriginOpenerPolicyConstants.html",
+          "hash": "r9jS9rdVN0uBmfzPcdZLzxHzv0qF0XPhR6IqK39S7/o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.CrossOriginResourcePolicyConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.CrossOriginResourcePolicyConstants.html",
+          "hash": "Go1dtKAmMEwVjXyCOuJBGIYzvqCCuT02hM8LbkSxcO8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.FrameOptionsConstants.html",
+          "hash": "fw0a5D/FobROmmFH9ZHEJZAUvoaCeJAAz2eg4Cr2MGI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ReferrerPolicyConstants.html",
+          "hash": "x39fZ7sd20ZCeHutUM4WLWlBMPeA6j/MPa9D63W9LFE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.ServerConstants.html",
+          "hash": "58NAahMvLSwhESClOKzjk8MHm9QyaiKhHndcM8kjDHg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.StrictTransportSecurityConstants.html",
+          "hash": "Hu3cn2FwgD42RI7tg/GqkfRih6WS/YO12zN9dFSgF4U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XPermittedCrossDomainPoliciesConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XPermittedCrossDomainPoliciesConstants.html",
+          "hash": "px74mGekC2DegCTz3SzsIJe6nz5E3ztUekS+U5yk4xY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.XssProtectionConstants.html",
+          "hash": "ccqZdAZ2fI3i0GD4X+tBcEyPSO2ldlCDX+178Tod4i8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.Constants.html",
+          "hash": "KPuJ2ZiRY5M+d3plTbjZu11mdRs7uVMm+s4NpsBpFLM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersBuilder.html",
+          "hash": "U5DczwXxXoG6YmP4IYTvKAzpU8jboLySuMGM/htScOI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddleware.html",
+          "hash": "U7cGFIAx1FMNXVn+g+YoFF1LmUY0/KdIsXosW5dl4kw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersMiddlewareExtensions.html",
+          "hash": "sMQHxr8uwz11Fdrz6EcfZR0rqPVOrBxT4Lih+WXBYJI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.SecurityHeadersPolicy.html",
+          "hash": "EAeHZ5D6PHAmC0rlP9RFffZpCYr+hIU8wUopqUw46c4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Ui.Middleware.SecurityHeaders.html",
+          "hash": "alikROgFWFD2nUbbKKGYbYLTkarT6Vcz1UQsraP9Elg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "CoFcaT4Adiwnvg4lKgYxvgC0OVA8y4hpua6fSkyZH1U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "tw5GMqz9mY0dvtTu+8Q1yhEN5d54lm5SiKvR/tfXnnM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "lrMXtZjJY1krjO1/mLQRNI0v9YqK402d+1b00vhKnMw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/RWDevs-header.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/RWDevs-header.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "sSGeH8YnRkn4NPV5Xc8/oHc8HIMYVKeUTm+l7ui9zpw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "YGAsHHnqJZiN2OHNvpb2uofDbvYsJklHMW1fx0/OGGg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 40,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
