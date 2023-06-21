@@ -30,7 +30,7 @@ jobs:
         dotnet-version: ${{ env.DOTNET_VERSION }}   
         
     - name: restore
-      run: dotnet restore
+      run: dotnet restore RWD.Toolbox.Ui.Middleware.sln
       
     - name: Build
       run: dotnet build --configuration Release --no-restore
