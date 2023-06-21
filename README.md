@@ -1,6 +1,11 @@
-## RWD.Toolbox.Ui.Middleware  
+[![CodeQL](https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware/actions/workflows/codeql.yml/badge.svg)](https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware/actions/workflows/codeql.yml)  
+[![DocFX Build and Publish](https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware/actions/workflows/docfx.yml/badge.svg)](https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware/actions/workflows/docfx.yml)  
+[![pages-build-deployment](https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware/actions/workflows/pages/pages-build-deployment)  
+[![Push to NuGet.org](https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware/actions/workflows/NuGetPush.yml/badge.svg)](https://github.com/RealWorldDevelopers/RWD.Toolbox.Ui.Middleware/actions/workflows/NuGetPush.yml)
+## RWD.Toolbox.Ui.Middleware 
+>> 
 >> ### [Documentation](https://realworlddevelopers.github.io/RWD.Toolbox.Ui.Middleware)
->> ### [Nuget Packages](https://www.nuget.org/profiles/RealWorldDevelopers)  
+>> ### [NuGet.org](https://www.nuget.org/profiles/RealWorldDevelopers)  
 
 
 ## RWD.Toolbox.Ui.Middleware.CspHeaders
