@@ -21,25 +21,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: Setup NuGet
-      uses: NuGet/setup-nuget@v1.0.5
+    - uses: actions/checkout@v3   
+   
 
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: ${{ env.DOTNET_VERSION }}
-        
-    #- name: Install dependencies
-    #  run: dotnet restore
-      
+        dotnet-version: ${{ env.DOTNET_VERSION }}       
+          
     - name: Build
-      run: dotnet build --configuration Release
+      run: dotnet build --configuration Release --no-restore
     
     - name: Test
       run: dotnet test --no-restore --verbosity normal      
       
     - name: Publish
-      if: startsWith(github.ref, 'refs/heads/release')
-      run: nuget push **\*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_API_KEY}}  
+      run: dotnet nuget push "*.nupkg" -k ${{secrets.NUGET_API_KEY}} -s https://api.nuget.org/v3/index.json --skip-duplicate     
